@@ -16,5 +16,5 @@
         '#forge:barks')
 
 //Pale Jane needs to be removed manually
-    event.remove({id:'bewinandchewin:fermenting/pale_jane_from_rice_wine'})
+    event.remove({id:'brewinandchewin:fermenting/pale_jane_from_rice_wine'})
 })
