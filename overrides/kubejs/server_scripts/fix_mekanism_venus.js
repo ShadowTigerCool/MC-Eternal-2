@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     type: 'mekanism:crushing',
     input: {
       ingredient: {
-        item: 'minecraft:sandstone'
+        item: 'ad_astra:venus_sandstone'
       }
     },
     output: {
