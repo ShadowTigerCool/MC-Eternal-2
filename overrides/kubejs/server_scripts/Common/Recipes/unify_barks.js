@@ -5,18 +5,14 @@
  
 
  ServerEvents.recipes(event => {
+
+    //unified barks, so not needed
+    event.remove({id:'arsdelight:paper_from_barks'})
+  
     event.replaceInput(
         {input:'#farmersdelight:barks'},
         '#farmersdelight:barks',
         '#mce2:barks')
-
-    event.replaceInput(
-        {input:'#immersive_weathering:bark'},
-        '#immersive_weathering:bark',
-        '#mce2:barks')
-
-//Pale Jane needs to be removed manually
-    event.remove({id:'brewinandchewin:fermenting/pale_jane_from_rice_wine'})
 
     event.custom({
         'type': 'brewinandchewin:fermenting',
