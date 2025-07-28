@@ -4,11 +4,11 @@
     "waves": [{
             "entities": [
                 {
-                    "entity": "specialmobs:zombified_piglin",
+                    "entity": "specialmobs:zombifiedpiglin",
                     "count": 5
                 },
                 {
-                    "entity": "specialmobs:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "count": 3
                 }
             ],
@@ -32,11 +32,11 @@
         {
             "entities": [
                 {
-                    "entity": "specialmobs:zombified_piglin",
+                    "entity": "specialmobs:zombifiedpiglin",
                     "count": 8
                 },
                 {
-                    "entity": "specialmobs:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "count": 5
                 },
                 {
@@ -84,15 +84,15 @@
         {
             "entities": [
                 {
-                    "entity": "specialmobs:zombified_piglin",
+                    "entity": "specialmobs:zombifiedpiglin",
                     "count": 8
                 },
                 {
-                    "entity": "specialmobs:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "count": 5
                 },
                 {
-                    "entity": "specialmobs:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "desc": "name.gateways.withered_ranger",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -167,7 +167,7 @@
         {
             "entities": [
                 {
-                    "entity": "specialmobs:piglin_brute",
+                    "entity": "minecraft:piglin_brute",
                     "desc": "name.gateways.butcher",
                     "nbt": {
                         "CustomNameVisible": 1,
@@ -214,7 +214,7 @@
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "specialmobs:wither_skeleton",
+                    "entity": "specialmobs:witherskeleton",
                     "desc": "name.gateways.withered_ranger",
                     "nbt": {
                         "CustomNameVisible": 1,
