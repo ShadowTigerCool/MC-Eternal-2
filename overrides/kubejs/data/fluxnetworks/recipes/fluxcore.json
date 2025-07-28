@@ -14,11 +14,11 @@
       "item": "fluxnetworks:flux_dust"
     },
     "e": {
-      "item": "majruszsdifficulty:enderium_shard"
+      "item": "mekanism:teleportation_core"
     }
   },
   "result": {
     "item": "fluxnetworks:flux_core",
-    "count": 4
+    "count": 12
   }
 }
