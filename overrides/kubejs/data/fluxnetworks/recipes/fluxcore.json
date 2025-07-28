@@ -14,11 +14,11 @@
       "item": "fluxnetworks:flux_dust"
     },
     "e": {
-      "item": "mekanism:teleportation_core"
+      "item": "mekanism:alloy_atomic"
     }
   },
   "result": {
     "item": "fluxnetworks:flux_core",
-    "count": 12
+    "count": 4
   }
 }
