@@ -23,7 +23,7 @@ ItemEvents.tooltip(event => {
 	event.add('explorerscompass:explorerscompass', Text.of('§8Can briefly cause lag while searching for a structure.').color('#FFFFFF')); 
 	event.add('kubejs:mcejaffa', Text.of('\u00A7oFaintly smells of honeydew and dirt!').color('#FFFFFF')); 
 	event.add('immersive_aircraft:quadrocopter', Text.of('\u00A7oNot safe for use in bad weather!').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('\u00A7o§7This map seems to write itself...').color('#FFFFFF')); 
+	event.add('kubejs:magic_map', Text.of('\u00A7o§7This map seems to be drawn to creatures.. It is capable of locating and displaying mobs on your Minimap!').color('#FFFFFF')); 
 	event.add('emendatusenigmatica:uranium_ingot', Text.of('\u00A7o§aContains roughly 20 billion calories. §oOne ingot will feed you for the rest of your life.').color('#FFFFFF'));
 	event.add('netherexp:sculk_grinder', Text.of('§bContains an immense amount of souls... But where did all of these souls come from...').color('#AA00AA'));
 	event.add('netherexp:sculk_grinder', Text.of('§8I wonder if something could absorb this power?').color('#AA00AA'));
