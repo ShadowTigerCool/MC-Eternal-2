@@ -789,11 +789,12 @@
 				"320F677D8A962681"
 				"46C671151AE613A1"
 			]
-			description: ["{chapter.8.quest.8.description.1}"]
+			description: ["Enter The End and slay the fierce &d<shake>ENDER DRAGON!"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
 			id: "341DBC6A59D51ED9"
+			optional: true
 			rewards: [
 				{
 					command: "/titles add {p} titles:voidlord"
@@ -846,10 +847,12 @@
 			size: 0.95d
 			subtitle: "Unlock The End"
 			tasks: [{
-				id: "3A7DBD2D2C5F2858"
-				item: "alexsmobs:void_worm_eye"
-				title: "&k&d???"
-				type: "item"
+				entity: "minecraft:ender_dragon"
+				icon: "alexsmobs:void_worm_eye"
+				id: "232C885B1F64CEA9"
+				title: "&dKill The Ender Dragon"
+				type: "kill"
+				value: 1L
 			}]
 			title: "&d<shake>The End"
 			x: 10.369047619047613d
