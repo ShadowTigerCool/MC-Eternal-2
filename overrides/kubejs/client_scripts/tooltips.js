@@ -32,11 +32,10 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:ingot_thousand_metals', Text.of('§7§oContains a mixture of many alloys and materials unknown to you. This item is full of ancient secrets that will perhaps never be fully understood...').color('#FFFFFF')); 
 	event.add('kubejs:mobdrop_endermanheart_beating', Text.of('§e▸ Drops from The Wither').color('#FFFFFF')); 
 	event.add('thermal:frost_melon_slice', Text.of('\u00A7o§bFreezing! Brrrr').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('Unlocks §e§nWorld-Map').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('Unlocks §e§nMinimap-Map').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('Required for the Quest §2"Mapping Out Your Surroundings"').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('§6Can be crafted by a Cartographer, using The Architects Inkwell!').color('#FFFFFF')); 
+	event.add('kubejs:magic_map', Text.of('Unlocks §e§nMap Entity Radar!').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('§d§→lDwarven Technology').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('Unlocks §e§nMap Cave Mode!').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('§7This map appears to project a hologram detailing the ground beneath you.. It seems to be impressively accurate!').color('#FFFFFF')); 
 	event.add('iceandfire:ectoplasm', Text.of('§b§oConsumption is not advised. May cause the player to become temporarily incorporeal').color('#FFFFFF')); 
 	event.add('jaffactory:jaffa_cake', Text.of('§7§oLets make a Jaffa Factory! It should take less than 100 episodes... Right? RIGHT??!').color('#FFFFFF')); 
 	event.add('kubejs:sunscreen', Text.of('\u00A7oSPF 50,000').color('#FFFFFF')); 
