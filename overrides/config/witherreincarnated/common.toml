@@ -27,9 +27,9 @@
 	"Max Barrage Cooldown (in ticks, default: 3600)" = 3600
 
 ["WITHER: OTHER"]
-	"Changes Time (default: true)" = true
+	"Changes Time (default: true)" = false
 	"Possesses Nearby Undead (default: true)" = true
-	"Attacks Produce Fire (default: true)" = true
+	"Attacks Produce Fire (default: true)" = false
 	"Fire Ignores Mob Griefing (default: false)" = false
 	"Vanilla Phases (default: false)" = false
 
