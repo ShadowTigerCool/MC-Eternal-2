@@ -8,7 +8,7 @@
 	"Dangerous Wither Skull Damage (default: 22.0)" = 32.0
 	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 18.0
 	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 5.0
-	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 40.0
+	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 30.0
 	"Laser Damage (default: 3.0)" = 300.0
 	"Charge Damage (default: 30.0)" = 50.0
 
