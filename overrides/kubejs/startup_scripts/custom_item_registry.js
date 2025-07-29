@@ -8,6 +8,8 @@ StartupEvents.registry("item", event => {
 
   event.create('dwarven_map').displayName('§dDwarven Map').glow(true);
 
+  event.create('magic_map').displayName('§eSeeker Map').glow(true);
+
   event.create('contract').displayName('§eDubious Contract').glow(true);
   
   event.create('artifact_runestone_dark_inscribed_large').displayName('§ePortal Keystone').glow(false);
@@ -53,8 +55,6 @@ StartupEvents.registry("item", event => {
   event.create('loyalty_card_curio').displayName('§aLoyalty Card - Random Curio Reward').glow(true);
   
   event.create('loyalty_card_bm').displayName('§5Loyalty Card - Random Blackmarket Reward').glow(true);
-  
-  event.create('magic_map').displayName('§eExplorers Map').glow(true);
 
   event.create("corporea_crystal")
     .tooltip(Text.translate("item.kubejs.corporea_crystal.desc").color("light_purple"))
