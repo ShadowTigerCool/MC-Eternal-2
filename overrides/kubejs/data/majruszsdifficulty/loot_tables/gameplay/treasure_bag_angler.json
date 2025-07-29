@@ -308,24 +308,14 @@
           "weight": 1,
           "quality": 1
         },
-        {
-          "type": "minecraft:item",
-          "name": "majruszsaccessories:angler_rune",
-          "weight": 1,
-          "quality": 8
-        },
+  
         {
           "type": "minecraft:item",
           "name": "majruszsaccessories:ancient_scarab",
           "weight": 1,
           "quality": 1
         },
-        {
-          "type": "minecraft:item",
-          "name": "majruszsaccessories:adventurer_rune",
-          "weight": 1,
-          "quality": 1
-        },
+      
         {
           "type": "minecraft:item",
           "name": "majruszsaccessories:adventurer_kit",
