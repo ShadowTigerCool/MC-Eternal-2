@@ -23,7 +23,7 @@ ItemEvents.tooltip(event => {
 	event.add('explorerscompass:explorerscompass', Text.of('§8Can briefly cause lag while searching for a structure.').color('#FFFFFF')); 
 	event.add('kubejs:mcejaffa', Text.of('\u00A7oFaintly smells of honeydew and dirt!').color('#FFFFFF')); 
 	event.add('immersive_aircraft:quadrocopter', Text.of('\u00A7oNot safe for use in bad weather!').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('\u00A7o§7This map seems to be drawn to creatures.. It is capable of locating and displaying mobs on your Minimap!').color('#FFFFFF')); 
+	event.add('kubejs:magic_map', Text.of('\u00A7o§7This map seems to locate entities, like some sort of advanced radar! How interesting!').color('#FFFFFF')); 
 	event.add('emendatusenigmatica:uranium_ingot', Text.of('\u00A7o§aContains roughly 20 billion calories. §oOne ingot will feed you for the rest of your life.').color('#FFFFFF'));
 	event.add('netherexp:sculk_grinder', Text.of('§bContains an immense amount of souls... But where did all of these souls come from...').color('#AA00AA'));
 	event.add('netherexp:sculk_grinder', Text.of('§8I wonder if something could absorb this power?').color('#AA00AA'));
@@ -33,9 +33,9 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:mobdrop_endermanheart_beating', Text.of('§e▸ Drops from The Wither').color('#FFFFFF')); 
 	event.add('thermal:frost_melon_slice', Text.of('\u00A7o§bFreezing! Brrrr').color('#FFFFFF')); 
 	event.add('kubejs:magic_map', Text.of('Unlocks §e§nMap Entity Radar!').color('#FFFFFF')); 
-	event.add('kubejs:dwarven_map', Text.of('§d§→lDwarven Technology').color('#FFFFFF')); 
 	event.add('kubejs:dwarven_map', Text.of('Unlocks §e§nMap Cave Mode!').color('#FFFFFF')); 
-	event.add('kubejs:dwarven_map', Text.of('§7This map appears to project a hologram detailing the ground beneath you.. It seems to be impressively accurate!').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('§7This map appears to project a hologram detailing the ground beneath you.. It seems to be impressively accurate!').color('#FFFFFF'));
+	event.add('kubejs:dwarven_map', Text.of('§d§lAncient Dwarven Technology').color('#FFFFFF')); 
 	event.add('iceandfire:ectoplasm', Text.of('§b§oConsumption is not advised. May cause the player to become temporarily incorporeal').color('#FFFFFF')); 
 	event.add('jaffactory:jaffa_cake', Text.of('§7§oLets make a Jaffa Factory! It should take less than 100 episodes... Right? RIGHT??!').color('#FFFFFF')); 
 	event.add('kubejs:sunscreen', Text.of('\u00A7oSPF 50,000').color('#FFFFFF')); 
