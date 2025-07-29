@@ -6,6 +6,8 @@ StartupEvents.registry("item", event => {
   
   event.create('clipboard').displayName('§eClipboard').glow(false);
 
+  event.create('dwarven_map').displayName('§dDwarven Map').glow(true);
+
   event.create('contract').displayName('§eDubious Contract').glow(true);
   
   event.create('artifact_runestone_dark_inscribed_large').displayName('§ePortal Keystone').glow(false);
