@@ -235,6 +235,105 @@
           "weight": 50,
           "quality": 1
         },
+
+ {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:idol_of_fertility",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:golden_dice",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:dream_catcher",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:lucky_rock",
+          "weight": 1,
+          "quality": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:miner_guide",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:secret_ingredient",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:swimmer_guide",
+          "weight": 1,
+          "quality": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:tamed_potato_beetle",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:tool_scraps",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:unbreakable_fishing_line",
+          "weight": 1,
+          "quality": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:discount_voucher",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:certificate_of_taming",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:angler_rune",
+          "weight": 1,
+          "quality": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:ancient_scarab",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:adventurer_rune",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:adventurer_kit",
+          "weight": 1,
+          "quality": 8
+        },
+
+        
          {
           "type": "minecraft:item",
           "name": "aquamirae:rune_of_the_storm",
