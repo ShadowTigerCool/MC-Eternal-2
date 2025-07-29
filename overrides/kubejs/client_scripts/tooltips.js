@@ -33,9 +33,9 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:mobdrop_endermanheart_beating', Text.of('§e▸ Drops from The Wither').color('#FFFFFF')); 
 	event.add('thermal:frost_melon_slice', Text.of('\u00A7o§bFreezing! Brrrr').color('#FFFFFF')); 
 	event.add('kubejs:magic_map', Text.of('Unlocks §e§nMap Entity Radar!').color('#FFFFFF')); 
-	event.add('kubejs:dwarven_map', Text.of('Unlocks §e§nMap Cave Mode!').color('#FFFFFF')); 
 	event.add('kubejs:dwarven_map', Text.of('§7This map appears to project a hologram detailing the ground beneath you.. It seems to be impressively accurate!').color('#FFFFFF'));
-	event.add('kubejs:dwarven_map', Text.of('§d§lAncient Dwarven Technology').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('§dAncient Dwarven Technology').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('Unlocks §e§nMap Cave Mode!').color('#FFFFFF')); 
 	event.add('iceandfire:ectoplasm', Text.of('§b§oConsumption is not advised. May cause the player to become temporarily incorporeal').color('#FFFFFF')); 
 	event.add('jaffactory:jaffa_cake', Text.of('§7§oLets make a Jaffa Factory! It should take less than 100 episodes... Right? RIGHT??!').color('#FFFFFF')); 
 	event.add('kubejs:sunscreen', Text.of('\u00A7oSPF 50,000').color('#FFFFFF')); 
