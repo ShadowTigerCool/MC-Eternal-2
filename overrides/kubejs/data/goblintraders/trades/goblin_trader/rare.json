@@ -1641,7 +1641,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_pickaxe",
+        "item": "amethyst_tools:amethyst_pickaxe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1668,7 +1668,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_pickaxe",
+        "item": "amethyst_tools:amethyst_pickaxe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1695,7 +1695,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_pickaxe",
+        "item": "amethyst_tools:amethyst_pickaxe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1722,7 +1722,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_axe",
+        "item": "amethyst_tools:amethyst_axe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1749,7 +1749,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_axe",
+        "item": "amethyst_tools:amethyst_axe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1803,7 +1803,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_shovel",
+        "item": "amethyst_tools:amethyst_shovel",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
