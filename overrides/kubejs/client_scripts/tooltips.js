@@ -6,10 +6,10 @@ ItemEvents.tooltip(event => {
 	event.add('cgs:revolver', Text.of('§7§oCan be duel wielded!').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7Press Z to tinker.').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
-	event.add('mekanism:osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:deepslate_osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:uranium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:deepslate_uranium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:deepslate_osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:uranium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:deepslate_uranium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('kubejs:travel_ticket', Text.of('§e§oCan be redeemed at the Quest Chapter "Fast Travel" to catch a plane to the "Sakura Dimension"!').color('#FFFFFF')); 
 	event.add('cataclysm:ignitium_block', Text.of('\u00A7oWhat a flex...').color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.of('§7Can be crafted with a §eGrave Key§7 to create §dEnchanted Grave Key').color('#FFFFFF'));
