@@ -16,13 +16,6 @@
           ],
           "functions": [
             {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              }
-            },
-            {
               "function": "minecraft:enchant_randomly"
             }
           ]
@@ -45,8 +38,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 2.0,
+                "max": 34.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -63,6 +56,22 @@
               "count": {
                 "min": 6.0,
                 "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 10,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 25.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -93,8 +102,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 2.0,
+                "max": 30.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -109,8 +118,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 4.0,
+                "max": 43.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -118,26 +127,167 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 8,
-          "quality": 2,
+          "name": "iceandfire:sea_serpent_fang",
+          "weight": 1,
+          "quality": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:scute",
-          "weight": 7,
-          "quality": 3
+          "name": "iceandfire:sea_serpent_scales_purple",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
-          "weight": 3,
-          "quality": 3
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:siren_tear",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "artifacts:shock_pendant",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "artifacts:aqua_dashers",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "artifacts:flippers",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:snorkel",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:anglers_hat",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "endrem:cryptic_eye",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:double_obsidian_hook",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "aquamirae:poseidons_breakfast",
+          "weight": 1,
+          "quality": 1
+        },
+          {
+          "type": "minecraft:item",
+          "name": "aquamirae:sea_stew",
+          "weight": 35,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquamirae:treasure_pouch",
+          "weight": 50,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquamirae:rune_of_the_storm",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_fishing_rod",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
+          "name": "aquaculture:gold_fishing_rod",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:diamond_fishing_rod",
+          "weight": 5,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:iron_fishing_rod",
+          "weight": 10,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:diamond_hook",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:redstone_hook",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:light_hook",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lavafishing:obsidian_fishing_rod",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:obsidian_hook",
+          "weight": 1,
+          "quality": 1
         }
       ]
     }
