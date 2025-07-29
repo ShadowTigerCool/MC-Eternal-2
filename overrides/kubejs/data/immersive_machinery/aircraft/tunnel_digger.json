@@ -1,7 +1,7 @@
 {
   "properties": {
     "durability": 4,
-    "drillingSpeed": 13,
+    "drillingSpeed": 20,
     "fuel": 3.0,
     "yawSpeed": 7.0,
     "engineSpeed": 0.2,
