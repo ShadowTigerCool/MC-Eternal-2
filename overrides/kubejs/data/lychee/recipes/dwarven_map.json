@@ -3,7 +3,7 @@
   "post": [
     {
       "type": "drop_item",
-      "item": "kubejs:magic_map",
+      "item": "kubejs:dwarven_map",
       "count": 1
     }
   ],
