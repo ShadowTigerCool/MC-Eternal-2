@@ -195,6 +195,12 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 1,
+          "quality": 1
+        },
+         {
+          "type": "minecraft:item",
           "name": "artifacts:anglers_hat",
           "weight": 1,
           "quality": 1
