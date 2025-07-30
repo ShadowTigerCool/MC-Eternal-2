@@ -2,16 +2,22 @@
   "type": "gateways:gate_recipe",
   "group": "gateways",
   "pattern": [
-    "FFF",
-    "FAF",
-    "FFF"
+    "FCF",
+    "BAB",
+    "FCF"
   ],
   "key": {
     "F": {
+      "item": "minecraft:bone"
+    },
+	   "B": {
       "tag": "minecraft:flowers"
     },
+	   "C": {
+      "item": "minecraft:rotten_flesh"
+    },
 	"A": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:ender_pearl"
     }
   },
   "result": {
