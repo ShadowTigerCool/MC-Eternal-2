@@ -20,7 +20,7 @@
 	"Max Charge Cooldown (Final Phase) (in ticks, default: 200)" = 200
 	"Disable Laser Attack (default: false)" = false
 	"Min Laser Cooldown (in ticks, default: 300)" = 300
-	"Max Laser Cooldown (in ticks, default: 900)" = 900
+	"Max Laser Cooldown (in ticks, default: 900)" = 1200
 	"Max Laser Length (default: 128)" = 128
 	"Disable Barrage Attack (default: false)" = false
 	"Min Barrage Cooldown (in ticks, default: 1200)" = 1200
