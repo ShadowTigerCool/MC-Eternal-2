@@ -43,7 +43,6 @@ ServerEvents.tags("entity_type", event => {
         "alexscaves:tremorzilla",
         "alexscaves:magnetron",
         "alexscaves:tremorsaurus",
-        "alexscaves:atlatitan",
         "artifacts:mimic",
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
@@ -99,7 +98,8 @@ ServerEvents.tags("entity_type", event => {
     // because if we don't want something caught, we probably do not want it farmed either.
     event.add("c:spawning_not_supported", [
         tagNoCapture,
-        "minecraft:evoker"
+        "minecraft:evoker",
+        "alexscaves:atlatitan"
     ])
 
     event.add("ars_nouveau:drygmy_blacklist", [
