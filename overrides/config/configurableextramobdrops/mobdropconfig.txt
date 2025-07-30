@@ -705,7 +705,7 @@
 'minecraft:donkey' : '',
 'minecraft:drowned' : '',
 'minecraft:elder_guardian' : '',
-'minecraft:ender_dragon' : '',
+'minecraft:ender_dragon' : '{Count:24b,id:"tconstruct:dragon_scale",tag:{dropchance:1.0d}}',
 'minecraft:enderman' : '',
 'minecraft:endermite' : '',
 'minecraft:evoker' : '',
