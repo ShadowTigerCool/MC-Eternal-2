@@ -172,6 +172,10 @@
                     "entity": "goety:bone_spider",
                     "count": 3
                 },
+				   {
+                    "entity": "irons_spellbooks:necromancer",
+                    "count": 1
+                },
                 {
                     "entity": "goety:web_spider",
                     "count": 2
@@ -262,6 +266,13 @@
             "entity": {
                 "entity": "minecraft:sheep",
                 "count": 6
+            }
+        },
+	      {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "rats:rat",
+                "count": 1
             }
         },
         {
