@@ -1110,6 +1110,15 @@
 			x: 12.085034013605444d
 			y: 0.3280612244897938d
 		}
+		{
+			dependency: "0CEBAAFB1B7EDA92"
+			height: 0.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 90.0d
+			width: 0.7d
+			x: 3.0957908163265273d
+			y: -0.05170068027211272d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -6798,8 +6807,8 @@
 				item: "sereneseasons:calendar"
 				type: "item"
 			}]
-			x: 2.8d
-			y: -0.7d
+			x: 3.5d
+			y: -2.8d
 		}
 		{
 			dependencies: ["740DD4098893630E"]
@@ -7870,6 +7879,101 @@
 			title: "&6Loot Goblin"
 			x: -1.1694727891156589d
 			y: 1.4304421768707485d
+		}
+		{
+			dependencies: ["0CEBAAFB1B7EDA92"]
+			description: [
+				"The &dPortable Pet Sphere&r is a very useful utility item for storing pets!"
+				"You can contain any tamed pet inside the sphere and release them whenever you wish!"
+				""
+				""
+				""
+				""
+				"Wait a second.. this isn't Cobblemon Eternal!"
+				"I'm gonna catch some of them! (Don't sue me Nintendo) "
+			]
+			id: "5D3ED598E0188760"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "6423B2EC392DC0BC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2826B98552F8CFE7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.7d
+			subtitle: "Craft a &ePortable Pet Sphere"
+			tasks: [{
+				id: "20DA7416F0404272"
+				item: "petcapturetool:capture_tool"
+				type: "item"
+			}]
+			title: "Legally Distinct Pocket Pal™"
+			x: 2.78626700680271d
+			y: -0.09931972789115662d
+		}
+		{
+			can_repeat: true
+			dependencies: ["39C7248750512A5B"]
+			description: [
+				"This strange device can turn money into chocolate money. Wow."
+				"{image:integrateddynamics:aspect/read/boolean/machine/isworking width:100 height:100 align:center}"
+				"            &o&7<shake>Beep Boop CHOCOLATE"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "quark:deepslate_furnace"
+			id: "4C7BC395C5E035D1"
+			optional: true
+			rewards: [{
+				id: "7EED2E2BABF3AAC5"
+				item: "kubejs:chocolate_coin"
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Feed me money..."
+			tasks: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4ABFA578BC714193"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eChocolate Coin Maker 5000"
+			x: 2.3911564625850374d
+			y: -1.307142857142857d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"

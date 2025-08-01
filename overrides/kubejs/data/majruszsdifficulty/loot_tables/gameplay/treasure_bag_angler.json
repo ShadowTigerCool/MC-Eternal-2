@@ -45,6 +45,22 @@
             }
           ]
         },
+            {
+          "type": "minecraft:item",
+          "name": "rats:plastic_waste",
+          "weight": 30,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 64.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:string",

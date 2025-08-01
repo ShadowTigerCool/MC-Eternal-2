@@ -43,7 +43,7 @@
       "weapon_attributes": "bettercombat:battlestaff"
     },
     {
-      "item_id_regex": "claw",
+      "item_id_regex": "claw|feral_bagh_nakhs|feral",
       "weapon_attributes": "bettercombat:claw"
     },
     {
