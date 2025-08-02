@@ -7,7 +7,8 @@
  ServerEvents.recipes(event => {
 
     //unified barks, so not needed
-    event.remove({id:'arsdelight:paper_from_barks'})
+    event.remove({id: 'arsdelight:paper_from_barks'})
+    event.remove({id: 'arsdelight:organic_compost_from_tree_bark'})
   
     event.replaceInput(
         {input:'#farmersdelight:barks'},
@@ -34,4 +35,5 @@
         'temperature':4
     }).id('brewinandchewin:fermenting/pale_jane_from_rice_wine')  
 })
+
 
