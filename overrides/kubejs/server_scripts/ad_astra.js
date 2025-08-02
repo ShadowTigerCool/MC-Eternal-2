@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
-  event.remove({ id: 'mekanism:crushing/venus_sandstone_to_venus_sand' })
 
+  //fix Venus Sandstone crushing (targets a nonexistent tag usually)
   event.custom({
     type: 'mekanism:crushing',
     input: {
@@ -14,4 +14,5 @@ ServerEvents.recipes(event => {
     }
   }).id('mekanism:crushing/venus_sandstone_to_venus_sand')
 })
+
 
