@@ -61,18 +61,7 @@
 		{
 			dependencies: [
 				"5406B7F8719CFC26"
-				"7505BE829530541C"
-				"061E529BEA06143B"
-				"6C5F3002C2B7C68C"
-				"76F98E53D8839A11"
-				"0162F2A9F032B442"
-				"2E84DFAD10C02EB1"
-				"6B99D9083276026D"
-				"635E94D6AB74B9D9"
-				"3EE3E2913158A875"
-				"39BF898B24417156"
-				"516CEC98C05CC1EB"
-				"320F677D8A962681"
+				"25D9F7944BC9A155"
 			]
 			description: [
 				""
@@ -140,12 +129,16 @@
 			]
 			shape: "pentagon"
 			subtitle: "{chapter.24.quest.1.subtitle}"
+			tasks: [{
+				id: "179E38248DFCF54C"
+				type: "checkmark"
+			}]
 			title: "{chapter.24.quest.1.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["5406B7F8719CFC26"]
+			dependencies: ["03FCEB26ED8148CF"]
 			description: ["{image:modpack:textures/end_portal.png width:200 height:110 align:1}"]
 			id: "0B0289E1D66B61D1"
 			rewards: [
@@ -196,15 +189,7 @@
 			]
 			subtitle: "{chapter.24.quest.2.subtitle}"
 			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "endrem:ancient_portal_frame"
-				}
+				icon: "endrem:ancient_portal_frame"
 				id: "25D1BD3B4F9873F5"
 				observe_type: 0
 				timer: 0L
@@ -283,7 +268,7 @@
 			}]
 			title: "{chapter.24.quest.3.title}"
 			x: -2.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B0289E1D66B61D1"]
@@ -412,6 +397,44 @@
 			title: "{chapter.24.quest.5.title}"
 			x: 0.0d
 			y: 1.642857142857146d
+		}
+		{
+			dependencies: [
+				"7505BE829530541C"
+				"061E529BEA06143B"
+				"6C5F3002C2B7C68C"
+				"76F98E53D8839A11"
+				"0162F2A9F032B442"
+				"2E84DFAD10C02EB1"
+				"6B99D9083276026D"
+				"635E94D6AB74B9D9"
+				"3EE3E2913158A875"
+				"39BF898B24417156"
+				"516CEC98C05CC1EB"
+				"320F677D8A962681"
+				"0A715F82561D4E3E"
+				"6868E856376060F7"
+				"44648584BA862F2B"
+				"18F900271434CBB7"
+			]
+			icon: "cataclysm:void_eye"
+			id: "25D9F7944BC9A155"
+			min_required_dependencies: 12
+			rewards: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "05623C4A9C248544"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Collect 12 Legendary Eyes!"
+			tasks: [{
+				id: "725C3AEDCE16E509"
+				type: "checkmark"
+			}]
+			title: "&6&lEye See"
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	title: "{chapter.24.title}"

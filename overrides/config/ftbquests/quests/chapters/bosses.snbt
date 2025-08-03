@@ -777,18 +777,7 @@
 			y: -0.22108843537414202d
 		}
 		{
-			dependencies: [
-				"7505BE829530541C"
-				"6B99D9083276026D"
-				"76F98E53D8839A11"
-				"39BF898B24417156"
-				"061E529BEA06143B"
-				"635E94D6AB74B9D9"
-				"6C5F3002C2B7C68C"
-				"0162F2A9F032B442"
-				"320F677D8A962681"
-				"46C671151AE613A1"
-			]
+			dependencies: ["46C671151AE613A1"]
 			description: ["Enter The End and slay the fierce &d<shake>ENDER DRAGON!"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
