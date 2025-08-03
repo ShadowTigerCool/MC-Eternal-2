@@ -14,6 +14,30 @@ const tinkersEntityMelting = (event, entityTypes, fluid, amount, damage) => {
     return event.custom(recipe)
 } 
 
+const tinkersCastingTable = (event, result, inputFluid, time, cast, consumeCast) => {
+    return tinkersCasting(event, "tconstruct:casting_table", result, inputFluid, time, cast, consumeCast)
+}
+
+const tinkersCastingBasin = (event, result, inputFluid, time, cast, consumeCast) => {
+    return tinkersCasting(event, "tconstruct:casting_basin", result, inputFluid, time, cast, consumeCast)
+}
+
+const tinkersCasting = (event, type, result, inputFluid, time, cast, consumeCast) => {
+    let recipe = {
+        type: type,
+        result: result,
+        fluid: inputFluid,
+        cooling_time: time,
+    }
+
+    if(cast) {
+        recipe.cast = cast;
+        recipe.cast_consumed = consumeCast || false
+    }
+
+    return event.custom(recipe)
+}
+
 const tinkersMelting = (event, output, input, temp, time, byproducts) => {
     let recipe = {
         type: "tconstruct:melting",
