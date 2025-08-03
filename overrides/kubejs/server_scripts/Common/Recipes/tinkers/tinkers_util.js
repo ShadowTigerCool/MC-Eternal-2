@@ -13,3 +13,18 @@ const tinkersEntityMelting = (event, entityTypes, fluid, amount, damage) => {
 
     return event.custom(recipe)
 } 
+
+const tinkersMelting = (event, output, input, temp, time, byproducts) => {
+    let recipe = {
+        type: "tconstruct:melting",
+        result: output.toJson(),
+        ingredient: input,
+        temperature: temp,
+        time: time
+    }
+
+    if(byproducts)
+        recipe.byproducts = byproducts
+
+    return event.custom(recipe)
+}
