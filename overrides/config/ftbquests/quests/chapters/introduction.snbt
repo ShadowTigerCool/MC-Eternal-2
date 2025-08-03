@@ -942,7 +942,7 @@
 			y: 0.20850340136053802d
 		}
 		{
-			dependency: "6CC1049FCC2A076C"
+			dependency: "71D5E6B384A55A8A"
 			height: 0.8d
 			image: "minecraft:textures/block/weeping_vines_plant.png"
 			rotation: 90.0d
@@ -2440,7 +2440,6 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "14F614D973412FD5"
-			optional: true
 			rewards: [
 				{
 					id: "7C0D73E80AE49737"
@@ -2678,7 +2677,6 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "267B32028E3E70E5"
-			optional: true
 			rewards: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -5963,7 +5961,6 @@
 			]
 			icon: "minecraft:obsidian"
 			id: "6CC1049FCC2A076C"
-			invisible: true
 			rewards: [
 				{
 					id: "081CA0517C41CD01"

@@ -1,0 +1,515 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6hexcasting"
+	group: "701563945253F512"
+	icon: "hexcasting:charged_amethyst"
+	id: "584D3BA281E4E700"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{mce.questing.hexcasting.amethysts.desc}"]
+			icon: "hexcasting:charged_amethyst"
+			id: "6C519408B9996906"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "0F30503FDF2E199A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "6E8B69DA0F20EC40"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{mce.questing.hexcasting.amethysts.sub}"
+			tasks: [
+				{
+					id: "4D249676D959D1CC"
+					item: "hexcasting:amethyst_dust"
+					type: "item"
+				}
+				{
+					id: "0BB134102FF6123D"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+			]
+			title: "{mce.questing.hexcasting.amethysts.name}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C519408B9996906"]
+			description: ["{mce.questing.hexcasting.get_casting.desc}"]
+			hide_until_deps_complete: true
+			id: "36B43D46705B3C0B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1DE11CBFDA3E0A57"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "{mce.questing.hexcasting.get_casting.sub}"
+			tasks: [
+				{
+					id: "1FD1404CBD1B87B1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "hexcasting:staves"
+						}
+					}
+					title: "{mce.questing.hexcasting.task.staff}"
+					type: "item"
+				}
+				{
+					id: "2B23724E9A35679B"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "hexcasting:thehexbook"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{mce.questing.hexcasting.get_casting.name}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F8871D3EC43504A"]
+			description: ["{mce.questing.hexcasting.casting_items.desc}"]
+			id: "57D66AA198934D14"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "4B70FF432020C007"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "118D90D16B211EFD"
+					item: {
+						Count: 1
+						id: "hexcasting:thought_knot"
+						tag: {
+							data: {
+								"hexcasting:data": [
+									{
+										"hexcasting:data": {
+											angles: [B;
+												5b
+												4b
+												5b
+											]
+											start_dir: 0b
+										}
+										"hexcasting:type": "hexcasting:pattern"
+									}
+									{
+										"hexcasting:data": {
+											angles: [B;
+												5b
+												4b
+												5b
+											]
+											start_dir: 0b
+										}
+										"hexcasting:type": "hexcasting:pattern"
+									}
+									{
+										"hexcasting:data": {
+											angles: [B;
+												0b
+												4b
+											]
+											start_dir: 0b
+										}
+										"hexcasting:type": "hexcasting:pattern"
+									}
+									{
+										"hexcasting:data": {
+											angles: [B;
+												4b
+												0b
+												5b
+												5b
+												5b
+												0b
+												4b
+												5b
+												0b
+											]
+											start_dir: 3b
+										}
+										"hexcasting:type": "hexcasting:pattern"
+									}
+								]
+								"hexcasting:type": "hexcasting:list"
+							}
+							display: {
+								Name: "{\"translate\":\"mce.hexcasting.hex.propulsion\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{mce.questing.hexcasting.casting_items.sub}"
+			tasks: [{
+				id: "7AA13A75EA584C6D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:cypher"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:trinket"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:artifact"
+							}
+						]
+					}
+				}
+				title: "{mce.questing.hexcasting.task.casting_item}"
+				type: "item"
+			}]
+			title: "{mce.questing.hexcasting.casting_items.name}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36B43D46705B3C0B"]
+			description: ["{mce.questing.hexcasting.abacus.desc}"]
+			id: "398EC9976389BC27"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "7F0E6A760FCD9B0F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.abacus.sub}"
+			tasks: [{
+				id: "79AB1A163C6DF3AA"
+				item: "hexcasting:abacus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36B43D46705B3C0B"]
+			description: ["{mce.questing.hexcasting.pigments.desc}"]
+			id: "0DF5F8A0498DCF82"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "31DBF3C2867EFC85"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.pigments.sub}"
+			tasks: [{
+				id: "6A54D60B05FD7FD8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:hexcasting/pigment"
+					}
+				}
+				title: "{mce.questing.hexcasting.task.pigment}"
+				type: "item"
+			}]
+			title: "{mce.questing.hexcasting.pigments.name}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36B43D46705B3C0B"]
+			description: ["{mce.questing.hexcasting.iota_storage.desc}"]
+			id: "0F8871D3EC43504A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "44CB943EE5E132B2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.iota_storage.sub}"
+			tasks: [{
+				id: "6D76FE211B83C0CC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:thought_knot"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:focus"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:spellbook"
+								tag: {
+									page_idx: 0
+									page_names: { }
+								}
+							}
+						]
+					}
+				}
+				title: "{mce.questing.hexcasting.task.iota_storage}"
+				type: "item"
+			}]
+			title: "{mce.questing.hexcasting.iota_storage.name}"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36B43D46705B3C0B"]
+			description: ["{mce.questing.hexcasting.scrying_lens.desc}"]
+			id: "040F7F9FAD685D8A"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "7104A7A34F52A23A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.scrying_lens.sub}"
+			tasks: [{
+				id: "5C38184183FA4C54"
+				item: "hexcasting:lens"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36B43D46705B3C0B"]
+			hide_dependency_lines: true
+			id: "4B967F13F20C2241"
+			invisible: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "784CC4AAF2C2B2BE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "{mce.questing.hexcasting.blind_diversion.sub}"
+			tasks: [{
+				advancement: "hexcasting:y_u_no_cast_angy"
+				criterion: ""
+				id: "02840647B76406ED"
+				type: "advancement"
+			}]
+			title: "{mce.questing.hexcasting.blind_diversion.name}"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B967F13F20C2241"]
+			id: "2D8003EAD136FF18"
+			rewards: [{
+				count: 10
+				id: "0209E91CAAA67182"
+				item: "kubejs:chocolate_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{mce.questing.hexcasting.achieve_enlightenment.sub}"
+			tasks: [{
+				advancement: "hexcasting:enlightenment"
+				criterion: ""
+				id: "7943FCF0E1A18201"
+				type: "advancement"
+			}]
+			title: "{mce.questing.hexcasting.achieve_enlightenment.name}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D8003EAD136FF18"]
+			description: ["{mce.questing.hexcasting.flay_mind.desc}"]
+			hide_until_deps_complete: true
+			id: "457DD19A6A7EE468"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6D002B5C68C2217E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "{mce.questing.hexcasting.flay_mind.sub}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "hexcasting:scroll"
+					tag: {
+						op_id: "hexcasting:brainsweep"
+					}
+				}
+				id: "7D9A4F7C4F212EAE"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							op_id: "hexcasting:brainsweep"
+						}
+					}
+				}
+				title: "Ancient Scroll of Flay Mind"
+				type: "item"
+			}]
+			title: "{mce.questing.hexcasting.flay_mind.name}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["457DD19A6A7EE468"]
+			description: ["{mce.questing.hexcasting.impetus.desc}"]
+			hide_until_deps_complete: true
+			id: "60016B4813A043FB"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "198E1340743704C6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.impetus.sub}"
+			tasks: [{
+				id: "2C0A58FED6F1AA28"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexcasting:impeti"
+					}
+				}
+				title: "Any Impetus"
+				type: "item"
+			}]
+			title: "{mce.questing.hexcasting.impetus.name}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["457DD19A6A7EE468"]
+			description: ["{mce.questing.hexcasting.quenched_allay.desc}"]
+			hide_until_deps_complete: true
+			id: "2523CFE59AE91C37"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "557EBBCA997EAA18"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.quenched_allay.sub}"
+			tasks: [{
+				id: "76F16182D9804C5C"
+				item: "hexcasting:quenched_allay_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["457DD19A6A7EE468"]
+			description: ["{mce.questing.hexcasting.akashic_library.desc}"]
+			id: "195A6EF465491409"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2ABA894CCBC94CE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{mce.questing.hexcasting.akashic_library.sub}"
+			tasks: [
+				{
+					id: "29E7E79FFC60335E"
+					item: "hexcasting:akashic_record"
+					type: "item"
+				}
+				{
+					id: "7835C3F1E0B1DAFA"
+					item: "hexcasting:akashic_connector"
+					type: "item"
+				}
+				{
+					id: "4613A11C785BBC58"
+					item: "hexcasting:akashic_bookshelf"
+					type: "item"
+				}
+			]
+			title: "{mce.questing.hexcasting.akashic_library.name}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57D66AA198934D14"
+				"040F7F9FAD685D8A"
+				"60016B4813A043FB"
+				"398EC9976389BC27"
+				"2523CFE59AE91C37"
+				"0DF5F8A0498DCF82"
+				"195A6EF465491409"
+			]
+			description: ["{mce.questing.hexcasting.questline_end.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "hexcasting:lore_fragment"
+			id: "6C5A6BFC0795BABB"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "6A39CEE62986103B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			subtitle: "{mce.questing.hexcasting.questline_end.sub}"
+			tasks: [{
+				id: "1343BB952574B00E"
+				type: "checkmark"
+			}]
+			title: "{mce.questing.hexcasting.questline_end.name}"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "&6Hexcasting"
+}
