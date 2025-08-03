@@ -1155,10 +1155,31 @@
 			shape: "pentagon"
 			subtitle: "Craft a &eTinker's Anvil&r"
 			tasks: [{
-				advancement: "tconstruct:smeltery/tinkers_anvil"
-				criterion: ""
-				id: "425488D147D8FD10"
-				type: "advancement"
+				id: "35C739BE6E406D96"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:tinkers_anvil"
+								tag: {
+									texture: "tcintegrations:bronze_block"
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_anvil"
+								tag: {
+									texture: "tcintegrations:bronze_block"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Tinkers' Anvil"
+				type: "item"
 			}]
 			title: "&eA love for Smithing!"
 			x: 6.0d
@@ -1181,19 +1202,11 @@
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: "Craft a &eFoundry Controller&r"
-			tasks: [
-				{
-					id: "7BBF8BC1FB3A8DE8"
-					item: "tconstruct:foundry_controller"
-					type: "item"
-				}
-				{
-					advancement: "tconstruct:foundry/structure"
-					criterion: ""
-					id: "1C28AE1E235DED5A"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				id: "7BBF8BC1FB3A8DE8"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -4.0d
 		}
@@ -1729,6 +1742,7 @@
 				"&e&lTip:&r Ores melted in the foundry will produce byproducts, granting a more valuable resource than the original ore."
 				"&6&lHint:&r Unlike The Smeltery, &eThe Foundry&r requires blocks on its edges and corners!"
 			]
+			icon: "tconstruct:foundry_controller"
 			id: "1188A9FDEE254A9F"
 			rewards: [
 				{
@@ -1788,7 +1802,14 @@
 				}
 				{
 					id: "2AB455612B6AE215"
-					item: "tconstruct:scorched_fuel_tank"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+					title: "Any Scorched Tank/Gauge"
 					type: "item"
 				}
 				{
@@ -1807,6 +1828,12 @@
 					item: "tconstruct:scorched_basin"
 					type: "item"
 				}
+				{
+					advancement: "tconstruct:foundry/structure"
+					criterion: ""
+					id: "7D9EFC389D3E76CC"
+					type: "advancement"
+				}
 			]
 			title: "&eThe Foundry"
 			x: 2.0d
@@ -1822,6 +1849,7 @@
 				""
 				"&dYou can cast an Ingot or a Part for this quest!"
 			]
+			icon: "tconstruct:manyullyn_ingot"
 			id: "3E1D5987122DB04B"
 			min_required_tasks: 1
 			rewards: [
@@ -1953,9 +1981,13 @@
 			description: [
 				"&e&lTip:&r Gives tools rechargeable power that can enhance the tool."
 				"&6&lHint:&r Will require some Thermal Series set up."
+				""
+				"&dYou can cast an Ingot or a Part for this quest!"
 			]
 			hide_until_deps_complete: true
+			icon: "tinkers_advanced:activated_chromatic_steel"
 			id: "5FD0C67252FEE974"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 500L
@@ -1990,20 +2022,42 @@
 			]
 			shape: "pentagon"
 			subtitle: "Alloy and produce &eActivated Chromatic Steel"
-			tasks: [{
-				id: "243FE163BABDD3AE"
-				item: "tinkers_advanced:activated_chromatic_steel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "243FE163BABDD3AE"
+					item: "tinkers_advanced:activated_chromatic_steel"
+					type: "item"
+				}
+				{
+					id: "494B9E60340380DE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tinkers_advanced:activated_chromatic_steel"
+							}
+						}
+					}
+					title: "Any Activated Chromatic Steel Part"
+					type: "item"
+				}
+			]
 			title: "&6Energy-Overkill"
 			x: 10.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["&e&lTip:&r Packs a heavy punch at the cost of some movement speed."]
+			description: [
+				"&e&lTip:&r Packs a heavy punch at the cost of some movement speed."
+				""
+				"&dYou can cast an Ingot or a Part for this quest!"
+			]
 			hide_until_deps_complete: true
+			icon: "tinkers_advanced:densium_ingot"
 			id: "00062CA0F86BFBEF"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 500L
@@ -2030,11 +2084,27 @@
 			]
 			shape: "pentagon"
 			subtitle: "Alloy and produce &eDensium"
-			tasks: [{
-				id: "7CED44918652E8A9"
-				item: "tinkers_advanced:densium_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7CED44918652E8A9"
+					item: "tinkers_advanced:densium_ingot"
+					type: "item"
+				}
+				{
+					id: "214B7A2AC12D6944"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tinkers_advanced:densium"
+							}
+						}
+					}
+					title: "Any Densium Part"
+					type: "item"
+				}
+			]
 			title: "&6Densium: The floor comes to it."
 			x: 8.0d
 			y: -5.0d
@@ -2283,6 +2353,7 @@
 				""
 				"&dYou can cast an Ingot or a Part for this quest!"
 			]
+			icon: "tconstruct:hepatizon_ingot"
 			id: "2705B4498048E843"
 			min_required_tasks: 1
 			rewards: [
@@ -2351,8 +2422,14 @@
 		}
 		{
 			dependencies: ["38E247B9906A65AF"]
-			description: ["&e&lTip:&r Slimy Materials (like Slimesteel!) allow for Overslime to be applied to tools with out inccurring any penalties"]
+			description: [
+				"&e&lTip:&r Slimy Materials (like Slimesteel!) allow for Overslime to be applied to tools with out inccurring any penalties"
+				""
+				"&dYou can cast an Ingot or a Part for this quest!"
+			]
+			icon: "tconstruct:slimesteel_ingot"
 			id: "277690DF8B5C2D11"
+			min_required_tasks: 1
 			rewards: [
 				{
 					id: "2314A5366CF89DC9"
@@ -2398,11 +2475,27 @@
 				}
 			]
 			subtitle: "Alloy and produce &eSlimesteel"
-			tasks: [{
-				id: "53AB6947E2843FAB"
-				item: "tconstruct:slimesteel_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53AB6947E2843FAB"
+					item: "tconstruct:slimesteel_ingot"
+					type: "item"
+				}
+				{
+					id: "59B20B33656D67A6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:slimesteel"
+							}
+						}
+					}
+					title: "Any Slimesteel Part"
+					type: "item"
+				}
+			]
 			x: 15.371768707483007d
 			y: 3.635714285714265d
 		}
@@ -2416,6 +2509,7 @@
 				"&dYou can cast an Ingot or a Part for this quest!"
 			]
 			hide_until_deps_complete: true
+			icon: "tconstruct:rose_gold_ingot"
 			id: "665701DB94D4E40E"
 			min_required_tasks: 1
 			rewards: [{
