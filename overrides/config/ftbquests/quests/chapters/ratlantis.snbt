@@ -269,7 +269,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["May be able to change one of the lost feral rats"]
+			description: ["May be able to change one of the lost feral rats."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:psionic_rat_brain"
@@ -324,14 +324,13 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					entity: "rats:neo_ratlantean"
-					icon: "rats:psionic_rat_brain"
-					id: "2E69FB179B701738"
-					type: "kill"
-					value: 1L
+					advancement: "ratlantis:neoratlantean"
+					criterion: ""
+					id: "494B403E8CC17857"
+					type: "advancement"
 				}
 				{
-					id: "5F206327AB0C08D2"
+					id: "705FFCEEEEF2D471"
 					item: "rats:vial_of_sentience"
 					type: "item"
 				}
@@ -343,7 +342,7 @@
 		{
 			dependencies: ["65DCDFD5CF572292"]
 			description: [
-				"Build The Automaton Rat"
+				"Build The Automaton Rat."
 				"&eTip:&f Place the head last"
 				"{image:modpack:textures/ratlanman.png width:150 height:100 align:center}"
 			]
@@ -401,26 +400,32 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					entity: "rats:ratlantean_automaton"
-					icon: "rats:arcane_technology"
-					id: "25EE485CF3069724"
-					type: "kill"
-					value: 1L
+					advancement: "ratlantis:marbled_cheese_golem"
+					criterion: ""
+					id: "4D6411B9A1A0A218"
+					type: "advancement"
 				}
 				{
-					id: "7744746216F47151"
+					id: "040A6B8CE1176492"
 					item: "rats:marbled_cheese_rat_head"
 					type: "item"
 				}
 				{
-					id: "44FBB36A1EDE7B23"
+					id: "2B5EF9D2E06B10D7"
 					item: "rats:marbled_cheese_golem_core"
 					type: "item"
 				}
 				{
 					count: 3L
-					id: "5826E5CC0EB996FE"
-					item: { Count: 3, id: "rats:marbled_cheese_raw" }
+					id: "5B20850524CB790A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rats:marbled_cheese"
+						}
+					}
+					title: "Any #rats:marbled_cheese"
 					type: "item"
 				}
 			]
@@ -430,7 +435,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["In the late hours of the night, some say you can still see his ship floating through the air"]
+			description: ["In the late hours of the night, some say you can still see his ship floating through the air."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:dutchrat_bell"
@@ -484,11 +489,10 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				entity: "rats:dutchrat"
-				icon: "rats:dutchrat_wheel"
-				id: "081F1164E2847FE5"
-				type: "kill"
-				value: 1L
+				advancement: "ratlantis:defeat_dutchrat"
+				criterion: ""
+				id: "22932EA0FA0E0B57"
+				type: "advancement"
 			}]
 			title: "The Flying Duchrat"
 			x: 4.0d
@@ -496,7 +500,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Somewhere in the lands is an old broken down runway with an &eAir Raid Siren&f maybe it will hear its call"]
+			description: ["Somewhere in the lands is an old broken down runway with an &eAir Raid Siren&f maybe it will hear its call."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:biplane_wing"
@@ -550,20 +554,12 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					entity: "rats:rat_baron"
-					icon: "rats:biplane_wing"
-					id: "140288FBF3EEE82E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "52846EE8801706E8"
-					item: "rats:biplane_wing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				advancement: "ratlantis:defeat_rat_baron"
+				criterion: ""
+				id: "54AE818501F32190"
+				type: "advancement"
+			}]
 			title: "Rat Baron"
 			x: 6.0d
 			y: 3.0d
@@ -643,7 +639,7 @@
 		}
 		{
 			dependencies: ["56DD03587D64EAE7"]
-			description: ["Mock the trivial pursuit when creating the avatar"]
+			description: ["Mock the pursuit it took to create the avatar."]
 			hide_until_deps_visible: true
 			id: "09FCB6F26CB68886"
 			rewards: [
@@ -708,7 +704,7 @@
 				"2218B0FFA0D07C32"
 				"6FD5A5FB24E35D23"
 			]
-			description: ["Combined within are the powers of ratlantis"]
+			description: ["Combined within are the powers of ratlantis."]
 			hide_until_deps_visible: true
 			id: "56DD03587D64EAE7"
 			rewards: [
@@ -762,7 +758,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Theyve come back to protect the land"]
+			description: ["Theyve come back to protect the land."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:ratlantean_flame"
@@ -786,7 +782,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Little pirat sailors"]
+			description: ["Destroy those little pirat sailors."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:pirat_hat"
@@ -810,7 +806,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Most of the locals have gone feral"]
+			description: ["Most of the locals have gone feral."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:feral_rat_claw"
@@ -834,7 +830,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["May be a bit rare"]
+			description: ["May be a bit rare in these jungles."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:ratbot_barrel"
@@ -893,12 +889,14 @@
 		{
 			dependencies: ["09FCB6F26CB68886"]
 			description: [
-				"Create the ultimate rat by combining upgrades"
-				"&eTip:&f 1 Combined upgrade per rat (upgrade. combined. then rat gems for fuel)"
+				"Create the ultimate rat by combining upgrades."
+				""
+				"&eTip:&f 1 Combined upgrade per rat (upgrade. combined. rat gems for fuel)"
 			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "068C4E5E1D34233D"
+			subtitle: "Boo yaa! "
 			tasks: [{
 				id: "3E63D610103F38E9"
 				item: "rats:upgrade_combiner"
@@ -910,7 +908,7 @@
 		{
 			dependencies: ["243CDB964EC69A5E"]
 			description: [
-				"Extra tang to its bite"
+				"Extra tang to its bite."
 				"Watch Out!"
 			]
 			hide_until_deps_complete: true
@@ -981,7 +979,7 @@
 			dependencies: ["243CDB964EC69A5E"]
 			description: [
 				"We have a Neo Rat at home."
-				"Big brained"
+				"Big Brained."
 			]
 			hide_until_deps_complete: true
 			id: "3B22CADD3DB98AB4"
@@ -1005,7 +1003,7 @@
 		}
 		{
 			dependencies: ["243CDB964EC69A5E"]
-			description: ["Lil Ghosty Rat Friend"]
+			description: ["Lil Ghosty Rat Friend."]
 			hide_until_deps_complete: true
 			id: "38679A0084BD89BC"
 			optional: true
@@ -1027,7 +1025,7 @@
 		}
 		{
 			dependencies: ["09FCB6F26CB68886"]
-			description: ["All the powers of RATs into this one upgrade"]
+			description: ["Craft the Nonbeliever with all the powers of the Ratlantean's in one "]
 			hide_until_deps_complete: true
 			id: "10DF0901D794C66F"
 			rewards: [
@@ -1082,11 +1080,13 @@
 					type: "item"
 				}
 			]
+			subtitle: "Blasphemy!"
 			tasks: [{
 				id: "71224D550DFAD7FB"
 				item: "rats:rat_upgrade_nonbeliever"
 				type: "item"
 			}]
+			title: "False Prophet"
 			x: 5.0d
 			y: 8.0d
 		}
@@ -1133,7 +1133,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Feel the full power of a Rat in one sword"]
+			description: ["Feel the full power of a Rat in one sword."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "65C83960A1C9BFB9"
@@ -1160,7 +1160,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["The claws of the feral ones can be quite sharp"]
+			description: ["Claws of the feral ones can be quite fast with attacks."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "69DF5C42C57BC81D"
@@ -1186,13 +1186,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
+			dependencies: ["068C4E5E1D34233D"]
 			description: ["Combine this with an upgrade and a gem inside the &eUpgrade Combiner"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "77AE1FA48A87B138"
 			rewards: [
 				{
@@ -1235,18 +1232,19 @@
 					type: "item"
 				}
 			]
+			subtitle: "Hitmaker"
 			tasks: [{
 				id: "7E7E30131BA643F0"
 				item: "rats:rat_upgrade_combined"
 				type: "item"
 			}]
 			title: "Combo Wombo"
-			x: 8.0d
+			x: 9.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Obtain both variants of the Cutlass"]
+			description: ["Obtain both variants of the Cutlass."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "736BB7434B3BFF86"
@@ -1286,12 +1284,16 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Lets the rats mow down anyone who attacks you"]
+			description: [
+				"Rats will mow down anything in sight."
+				""
+				"&eTip:&f Give mob filter and set to hunt mobs"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "07D25D97C4D75BC7"
 			rewards: [{
-				amount: 50L
+				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "0BF4ED70E3943D0E"
 				ignore_reward_blocking: true
@@ -1307,364 +1309,98 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"0C88FE732CC2AC48"
-				"1CC89DA595D62AD9"
-				"5142ACBE228E42D0"
-				"19C163CC332AE1C2"
-				"3FBD6EA16F5EEB0A"
-				"068C4E5E1D34233D"
-			]
-			description: ["Create the most powerful Rat warrior this word as seen"]
-			hide_until_deps_visible: true
+			dependencies: ["77AE1FA48A87B138"]
+			description: ["Add One by one with combined upgrade to create the ultimate tank"]
+			hide_until_deps_complete: true
 			id: "2E13A78D5507C410"
 			optional: true
-			tasks: [{
-				id: "7275A9603F0C9B36"
-				item: {
-					Count: 1
-					id: "rats:rat_upgrade_combined"
-					tag: {
-						Items: [
-							{
-								Count: 1b
-								Slot: 0b
-								id: "rats:rat_upgrade_god"
-							}
-							{
-								Count: 1b
-								Slot: 1b
-								id: "rats:rat_upgrade_nonbeliever"
-							}
-							{
-								Count: 1b
-								Slot: 2b
-								id: "rats:rat_upgrade_voodoo"
-							}
-							{
-								Count: 1b
-								Slot: 3b
-								id: "rats:rat_upgrade_damage_protection"
-							}
-							{
-								Count: 1b
-								Slot: 4b
-								id: "rats:rat_upgrade_angel"
-							}
-						]
-					}
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "1B3CB48B57A63225"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Nothing but a scratch"
+			tasks: [
+				{
+					id: "56F50EE16D27FB49"
+					item: "rats:rat_upgrade_god"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Ultimate Battle Tank"
-			x: 11.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
+				{
+					id: "7A63393CAA394336"
+					item: "rats:rat_upgrade_nonbeliever"
+					type: "item"
+				}
+				{
+					id: "1C92DD55E42EAA34"
+					item: "rats:rat_upgrade_voodoo"
+					type: "item"
+				}
+				{
+					id: "2D9A12BF138C4625"
+					item: "rats:rat_upgrade_damage_protection"
+					type: "item"
+				}
+				{
+					id: "4FBB3C0B97466C63"
+					item: "rats:rat_upgrade_angel"
+					type: "item"
+				}
 			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "1CC89DA595D62AD9"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "2050A8666371D72A"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "1A775137F262B5B0"
-				item: "rats:rat_upgrade_nonbeliever"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "19C163CC332AE1C2"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "6A85254337C8ED60"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "04B51E86EDF23C8B"
-				item: "rats:rat_upgrade_god"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "0C88FE732CC2AC48"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "5C9945AD98802600"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "5EF7BA7D78B93668"
-				item: "rats:rat_upgrade_angel"
-				type: "item"
-			}]
+			title: "Combined Foruma: Ultimate Tank"
 			x: 11.0d
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			hide_dependency_lines: true
+			dependencies: ["77AE1FA48A87B138"]
+			description: ["Add One by one with combined upgrade to create your own air support"]
 			hide_until_deps_complete: true
-			id: "5142ACBE228E42D0"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "7FB5BD2A1F8430CE"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "1F850BF7BDD6CB5B"
-				item: "rats:rat_upgrade_voodoo"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "3FBD6EA16F5EEB0A"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "4B7650CE07B95C5D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "75518E6C9100A970"
-				item: "rats:rat_upgrade_damage_protection"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "375C00C6EFAB2D2F"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "2F063A6632F4209D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "24259367D0143DB5"
-				item: "rats:rat_upgrade_dragon"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "62BB80828213B2A4"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "34BE0C373D886C70"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "285831D525AA2290"
-				item: "rats:rat_upgrade_remedy"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "133D61B588A395F3"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "25D2B2806C1AEF00"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "75A1A2A8C9797E67"
-				item: "rats:rat_upgrade_support"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "19C4AE587548BBA9"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "4289BC9FE8186820"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "5E197D094681D3B7"
-				item: "rats:rat_upgrade_ethereal"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"068C4E5E1D34233D"
-				"65DCDFD5CF572292"
-			]
-			description: ["Part of a combined upgrade"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "1A27293660EFE099"
-			optional: true
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "7A0A5F26807C8B28"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "270DBBA7E216158B"
-				item: "rats:rat_upgrade_bow"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"1A27293660EFE099"
-				"133D61B588A395F3"
-				"19C4AE587548BBA9"
-				"62BB80828213B2A4"
-				"375C00C6EFAB2D2F"
-				"068C4E5E1D34233D"
-			]
-			hide_until_deps_visible: true
 			id: "38C34232E3CEB525"
 			optional: true
-			tasks: [{
-				id: "512AEF4222381F48"
-				item: {
-					Count: 1
-					id: "rats:rat_upgrade_combined"
-					tag: {
-						Items: [
-							{
-								Count: 1b
-								Slot: 0b
-								id: "rats:rat_upgrade_dragon"
-							}
-							{
-								Count: 1b
-								Slot: 1b
-								id: "rats:rat_upgrade_ethereal"
-							}
-							{
-								Count: 1b
-								Slot: 2b
-								id: "rats:rat_upgrade_bow"
-							}
-							{
-								Count: 1b
-								Slot: 3b
-								id: "rats:rat_upgrade_support"
-							}
-							{
-								Count: 1b
-								Slot: 4b
-								id: "rats:rat_upgrade_remedy"
-							}
-						]
-					}
-				}
-				type: "item"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "2ADCBFC069DCB8A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
-			title: "Air Support"
+			subtitle: "Chopper incoming"
+			tasks: [
+				{
+					id: "525C4CC5C61D49A9"
+					item: "rats:rat_upgrade_dragon"
+					type: "item"
+				}
+				{
+					id: "4E978633DFDC6C13"
+					item: "rats:rat_upgrade_ethereal"
+					type: "item"
+				}
+				{
+					id: "178D372C2D41B94A"
+					item: "rats:rat_upgrade_bow"
+					type: "item"
+				}
+				{
+					id: "1DB26CBA4109CE98"
+					item: "rats:rat_upgrade_support"
+					type: "item"
+				}
+				{
+					id: "4AF36E301673F4EB"
+					item: "rats:rat_upgrade_remedy"
+					type: "item"
+				}
+			]
+			title: "Combined Formula: Air Support"
 			x: 8.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["068C4E5E1D34233D"]
-			description: ["If you need to separate an upgrade"]
+			description: ["If you need to separate your new upgrade."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "543DE671CB31D403"
@@ -1679,7 +1415,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Found more underground"]
+			description: ["Some have rats choose not to evolve to land."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "23431E7A13474275"
