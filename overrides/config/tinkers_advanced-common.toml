@@ -4,10 +4,10 @@
 	#Shaping
 	#Max upgrade slot bonus for Shaping modifier, 3 by default.
 	#Range: > 1
-	shaping_max_slot = 1
+	shaping_max_slot = 2
 	#How many durability loss is needed for Shaping modifier to gain 1 slot, 500 by default.
 	#Range: > 1
-	shaping_damages_each_slot = 500
+	shaping_damages_each_slot = 2000
 	#Proto Refining
 	#Bonus enchantment level each trait level for Proto Refining, 3 by default.
 	#Range: > 0

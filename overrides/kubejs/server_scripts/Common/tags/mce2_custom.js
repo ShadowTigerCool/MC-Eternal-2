@@ -58,4 +58,8 @@ ServerEvents.tags("item", event => {
         'sophisticatedbackpacks:void_upgrade',
         'sophisticatedbackpacks:advanced_void_upgrade'
     ])
+
+
+    //Hex Pigment
+    event.add("mce2:hexcasting/pigment", /hexcasting:.*_colorizer.*/)
 })

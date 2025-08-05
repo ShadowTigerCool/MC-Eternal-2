@@ -75,6 +75,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "66A4A8B0BDA07C21"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "{chapter.39.quest.1.subtitle}"
@@ -135,6 +140,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "71D93A38CD1E43F2"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -184,6 +194,11 @@
 					item: "create:honeyed_apple"
 					type: "item"
 				}
+				{
+					id: "78C79B9C8D4DE505"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -197,36 +212,43 @@
 		{
 			id: "33FD61B0BA0B7E0B"
 			optional: true
-			rewards: [{
-				count: 3
-				id: "7293E15F656361D7"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						Enchantments: [{
-							id: "ars_nouveau:reactive"
-							lvl: 1
-						}]
-						HideFlags: 33
-						display: {
-							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§7§oRight-Click to Open\"}"
-							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+			rewards: [
+				{
+					count: 3
+					id: "7293E15F656361D7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:rainbow_rune"
-						}
-						rpgloot.randomize: 0b
-						type: "quest_loot"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1F43AD9DD75E6C44"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 150
@@ -279,6 +301,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "3F8E8D74E69DC0A3"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -336,6 +363,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6FF738F0BD3CE9AE"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -349,18 +381,25 @@
 		{
 			id: "3C8F77EBC06819F7"
 			optional: true
-			rewards: [{
-				count: 3
-				id: "03C46CF9EE5D5E95"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+			rewards: [
+				{
+					count: 3
+					id: "03C46CF9EE5D5E95"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3F9199022F807FF7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 500
@@ -373,18 +412,25 @@
 		{
 			id: "2F9495018AC5F546"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "6D62B65C6E7398ED"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+			rewards: [
+				{
+					count: 5
+					id: "6D62B65C6E7398ED"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4E6202F9E0D746A3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 1000
@@ -422,6 +468,11 @@
 					id: "6BB9D44F9CBA914D"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7266BE9A85552932"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			subtitle: "{chapter.39.quest.9.subtitle}"
@@ -530,6 +581,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "00CC7AAA7A7DD85C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "{chapter.39.quest.10.subtitle}"
@@ -617,6 +673,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "32D99FFC3432D266"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "{chapter.39.quest.11.subtitle}"
@@ -690,7 +751,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p}  titles:master_angler"
+					command: "/titles add {p} titles:master_angler"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -704,6 +765,11 @@
 					id: "46CD957CFFE96B19"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1BCC004A24638034"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			subtitle: "{chapter.39.quest.13.subtitle}"
@@ -760,6 +826,11 @@
 					id: "5952E1E96E6D0D18"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7F485DDB022507F6"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Craft all 4 Tiers of Rocket Ship!"
@@ -850,6 +921,11 @@
 					title: "&eUnlock Title:&r the Patient"
 					type: "command"
 				}
+				{
+					id: "737585AAC565A2D5"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "{chapter.39.quest.15.subtitle}"
 			tasks: [{
@@ -924,6 +1000,11 @@
 					id: "73FEB83AC9DB275E"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1838CD41D55F0DD8"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			subtitle: "{chapter.39.quest.16.subtitle}"
@@ -1051,6 +1132,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "2E1200CE3696B5A1"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "{chapter.39.quest.17.subtitle}"
 			tasks: [{
@@ -1106,6 +1192,11 @@
 					id: "09D5B9984B09E9B1"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "198591C79ACD0E32"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			subtitle: "{chapter.39.quest.18.subtitle}"
@@ -1468,6 +1559,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "70F6013CCEBEAFA7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "&oIt shouldn't take 100 episodes... should it!?"
@@ -1563,6 +1659,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "5385F5A2746C434A"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "{chapter.39.quest.22.subtitle}"
 			tasks: [
@@ -1611,20 +1712,26 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0901DBD03773B644"]
 			description: [
 				"Challenge Quests are optional Quests that give you a &c&oChallenge&r. These challenges can range from skill based to the &outterly absurd&r. Challenge Quests often require a lot of time to complete! but they have extra &e&ospecial rewards™&r for your trouble!"
 				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
 			]
 			icon: "titles:title_scroll_rare"
 			id: "48CD37069D7FE2EF"
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "26E85C4D785F0B5C"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "26E85C4D785F0B5C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D87FF62EC6D6503"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "What are Challenge Quests?"
@@ -1683,6 +1790,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2B37DB076329CBD3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -1725,6 +1837,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "1DDF9B9D0E189E9F"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "{chapter.39.quest.26.subtitle}"
 			tasks: [{
@@ -1757,6 +1874,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "549358CE84A1FB85"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "Craft 1 Million &eTiny Potato"
 			tasks: [{
@@ -1773,7 +1895,6 @@
 		}
 		{
 			dependencies: [
-				"1D23FD307B88FD43"
 				"3348CB91A5659884"
 				"35EB3BAAC2AD189B"
 				"511BD5CE8926D782"
@@ -1817,6 +1938,11 @@
 					id: "0101958C6BCD1EBD"
 					title: "&e&nRadio Broadcast"
 					type: "command"
+				}
+				{
+					id: "43DBCBC4A79A5151"
+					item: "kubejs:chocolate_coin"
+					type: "item"
 				}
 			]
 			shape: "pentagon"
@@ -1862,6 +1988,11 @@
 				{
 					id: "024977E8962C5162"
 					item: "mce2lib:chicken_nugget_summon"
+					type: "item"
+				}
+				{
+					id: "2B1714741BB55EFB"
+					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -1959,6 +2090,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "055BC2B5681D4B00"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "&6Boss? Battle?"
 			tasks: [{
@@ -1996,6 +2132,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "21CBD76B9EF96376"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			subtitle: "Complete &eThe Sculpter's&r Challenge!"
 			tasks: [{
@@ -2031,6 +2172,11 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "7371B9B9E1D1C4DC"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			subtitle: "&o&eDie 100 Times!"
@@ -2062,20 +2208,24 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:trash"
-					console: true
-					elevate_perms: true
-					icon: "titles:title_scroll_rare"
-					id: "05898EA59FFAFF41"
-					title: "&eUnlock Title:&r the Trashman"
-					type: "command"
-				}
-				{
 					amount: 5000L
 					currency: "eternalcurrencies:coins"
 					id: "1284C9E55FD236E9"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6372888FE6CC4C56"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:trashman"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "4878192B49691F91"
+					title: "&eUnlock Title:&r the Trashman"
+					type: "command"
 				}
 			]
 			subtitle: "Collect 500x &ePlastic Waste!"
@@ -2090,7 +2240,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
 			description: [
 				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
 				"&6Hint:&r There are no hints... there are no shortcuts.. Study the way of the goat and you shall be rewarded!"
@@ -2159,6 +2308,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "53F192EF99822E0B"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "Learn from a Goat if you wish to become THE G.O.A.T"
@@ -2174,6 +2328,347 @@
 			title: "&6The Way of The Goat"
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			description: ["&o\"Godzilla was baptized in the fire of the H-bomb and survived. What could kill it now?\""]
+			id: "4C49FA74128CEE95"
+			rewards: [
+				{
+					amount: 3500L
+					currency: "eternalcurrencies:coins"
+					id: "53327789AB4B75B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78D2A656AEC25566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p}  titles:godzilla"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "5D2DF03A7B532A06"
+					title: "&eUnlock Title:&r the Terror"
+					type: "command"
+				}
+				{
+					id: "61157E5AC217713C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Tame a &dTerrorzilla"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				icon: "alexscaves:waste_drum"
+				id: "116EB152780DB546"
+				title: "&6King of The Monsters"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["&o‘Now I Am Become Death, the Destroyer of Worlds.’"]
+			id: "31ED2D411EC20A74"
+			rewards: [
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "4F56D3427353A962"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "4821242C9614CE38"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:nuke"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "074DBF126B7B6BD2"
+					title: "&eUnlock Title:&r the Destroyer of Worlds"
+					type: "command"
+				}
+				{
+					id: "1097E19BD3F4F614"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eNuclear Bomb"
+			tasks: [{
+				id: "71320C2F137A9170"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "&6Oppenheimer"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "5F35EB74F5A77156"
+			optional: true
+			rewards: [
+				{
+					id: "2DE7B197CF29606B"
+					item: "skillcloaks:max_cloak"
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "5EB2310E499C4FD2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "64DA7E2150C71DD4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18F77902FDB3FB3C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:skill"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "0D6B48FB4BB71223"
+					title: "&eUnlock Title:&r the Skillful"
+					type: "command"
+				}
+			]
+			subtitle: "Collect all &dSkill Cloaks"
+			tasks: [
+				{
+					id: "5654CCA80063E2D6"
+					item: "skillcloaks:agility_cloak"
+					type: "item"
+				}
+				{
+					id: "4780A61A346340EA"
+					item: "skillcloaks:attack_cloak"
+					type: "item"
+				}
+				{
+					id: "0570C6646BEF341D"
+					item: "skillcloaks:construction_cloak"
+					type: "item"
+				}
+				{
+					id: "02CB72CBA52047BC"
+					item: "skillcloaks:cooking_cloak"
+					type: "item"
+				}
+				{
+					id: "63ECEFAC310FD5D8"
+					item: "skillcloaks:crafting_cloak"
+					type: "item"
+				}
+				{
+					id: "2420507857E30114"
+					item: "skillcloaks:defence_cloak"
+					type: "item"
+				}
+				{
+					id: "39AD579BBE16D284"
+					item: "skillcloaks:farming_cloak"
+					type: "item"
+				}
+				{
+					id: "2EF9180F7866833B"
+					item: "skillcloaks:firemaking_cloak"
+					type: "item"
+				}
+				{
+					id: "585FFC4CB2A6DDFB"
+					item: "skillcloaks:fishing_cloak"
+					type: "item"
+				}
+				{
+					id: "707B49295B215AEC"
+					item: "skillcloaks:fletching_cloak"
+					type: "item"
+				}
+				{
+					id: "4FB2D23D9B7370D7"
+					item: "skillcloaks:herblore_cloak"
+					type: "item"
+				}
+				{
+					id: "28CE5060389B5F96"
+					item: "skillcloaks:hitpoints_cloak"
+					type: "item"
+				}
+				{
+					id: "7B2916B2A84681B2"
+					item: "skillcloaks:hunter_cloak"
+					type: "item"
+				}
+				{
+					id: "6ED8C96401C6D8D3"
+					item: "skillcloaks:magic_cloak"
+					type: "item"
+				}
+				{
+					id: "389440ED1F96B99C"
+					item: "skillcloaks:mining_cloak"
+					type: "item"
+				}
+				{
+					id: "530F84004A0FD131"
+					item: "skillcloaks:prayer_cloak"
+					type: "item"
+				}
+				{
+					id: "37608133F35B6F74"
+					item: "skillcloaks:ranging_cloak"
+					type: "item"
+				}
+				{
+					id: "1DE42920A3CDF1EC"
+					item: "skillcloaks:runecraft_cloak"
+					type: "item"
+				}
+				{
+					id: "1D93412DCA112A25"
+					item: "skillcloaks:slayer_cloak"
+					type: "item"
+				}
+				{
+					id: "6F1EC2BEF49E944C"
+					item: "skillcloaks:strength_cloak"
+					type: "item"
+				}
+				{
+					id: "47763F81BCF2B095"
+					item: "skillcloaks:thieving_cloak"
+					type: "item"
+				}
+				{
+					id: "24AE4C04D5C638D3"
+					item: "skillcloaks:woodcutting_cloak"
+					type: "item"
+				}
+			]
+			title: "The Skillful"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: ["&7\"I'm the Trash Man! I come out, I throw trash all over the- all over the ring! And then I start eatin' garbage! And then I pick up the trash can, and I bash the guy on the head.\""]
+			id: "740A5CA0E91C81BB"
+			optional: true
+			rewards: [
+				{
+					id: "6786D0C9A7FA63F6"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "69126D058D047B3F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:stinky"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "369FC710E68FD3B6"
+					title: "&eUnlock Title:&r the Stinky"
+					type: "command"
+				}
+			]
+			secret: true
+			subtitle: "Roll Around in Garbage Piles"
+			tasks: [{
+				icon: "rats:garbage_pile"
+				id: "78D75DD658F2E993"
+				observe_type: 0
+				timer: 200L
+				title: "&8Roll Around in Garbage"
+				to_observe: "rats:garbage_pile"
+				type: "observation"
+			}]
+			title: "&e<shake>The Trashman"
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "{chapter.39.title}"

@@ -942,7 +942,7 @@
 			y: 0.20850340136053802d
 		}
 		{
-			dependency: "6CC1049FCC2A076C"
+			dependency: "71D5E6B384A55A8A"
 			height: 0.8d
 			image: "minecraft:textures/block/weeping_vines_plant.png"
 			rotation: 90.0d
@@ -1109,6 +1109,15 @@
 			width: 0.8d
 			x: 12.085034013605444d
 			y: 0.3280612244897938d
+		}
+		{
+			dependency: "0CEBAAFB1B7EDA92"
+			height: 0.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 90.0d
+			width: 0.7d
+			x: 3.0957908163265273d
+			y: -0.05170068027211272d
 		}
 	]
 	order_index: 0
@@ -2431,7 +2440,6 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "14F614D973412FD5"
-			optional: true
 			rewards: [
 				{
 					id: "7C0D73E80AE49737"
@@ -2669,7 +2677,6 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "267B32028E3E70E5"
-			optional: true
 			rewards: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -3772,83 +3779,6 @@
 			y: 1.2455782312925265d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
-			description: ["{chapter.1.quest.58.description.1}"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "kubejs:mossy_letter"
-			id: "1FC9E8044B1B61B4"
-			incompatible: ["3332943281ADBEF1"]
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					icon: "create:orange_toolbox"
-					id: "4663D189BEB1D713"
-					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
-					type: "random"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
-					console: true
-					icon: "etched:radio"
-					id: "2B26880DB70189CB"
-					title: "&n&eYou've got mail!"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
-					elevate_perms: true
-					icon: "kubejs:mossy_letter"
-					id: "2AAC15C9FF587A16"
-					title: "&dYou've got mail!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					icon: "mekanism:cardboard_box"
-					id: "5058D418D42D2D0C"
-					table_id: 8813467126958483284L
-					title: "&6Box of Hand-Me-Downs &7(Pick One!)"
-					type: "choice"
-				}
-				{
-					amount: 15L
-					currency: "eternalcurrencies:coins"
-					id: "11E5CB5A450D1E78"
-					ignore_reward_blocking: true
-					title: "&3Pocket Change"
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "3A4937EAD954AD94"
-					item: "majruszsdifficulty:recall_potion"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			subtitle: "{chapter.1.quest.58.subtitle}"
-			tasks: [{
-				days: 2
-				icon: {
-					Count: 1
-					id: "alexscaves:pure_darkness"
-					tag: { }
-				}
-				id: "6EE9BF1E4EB1303F"
-				title: "Survive The Night!"
-				type: "questsadditions:days"
-			}]
-			title: "&6Letter From Mom!"
-			x: 9.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
 				"{chapter.1.quest.59.description.1}"
@@ -3898,80 +3828,6 @@
 			title: "{chapter.1.quest.59.title}"
 			x: 0.0d
 			y: -6.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["740DD4098893630E"]
-			description: ["{chapter.1.quest.60.description.1}"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "kubejs:elegant_letter"
-				tag: { }
-			}
-			id: "55C7DE6FA0F4E388"
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					icon: "create:orange_toolbox"
-					id: "1E4F523BAB1211F7"
-					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.60.reward.1.title}"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					icon: "quark:crate"
-					id: "6B1393250318C85B"
-					table_id: 7279712221922706554L
-					title: "&6&oWhat Mom Found At The Market!"
-					type: "loot"
-				}
-				{
-					auto: "invisible"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
-					elevate_perms: true
-					icon: "mekanism:cardboard_box"
-					id: "042BBCE86D4E40C7"
-					title: "&dYou've got mail!"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
-					console: true
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "kubejs:mossy_letter"
-						tag: { }
-					}
-					id: "4FB11B31FDF418A1"
-					title: "&eDelivery!"
-					type: "command"
-				}
-			]
-			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
-			tasks: [{
-				elapsedTime: 28800L
-				icon: {
-					Count: 1
-					id: "kubejs:elegant_letter"
-					tag: { }
-				}
-				id: "7B39F363C2088C46"
-				title: "&e8 Hour Delivery"
-				type: "questsadditions:time"
-			}]
-			title: "{chapter.1.quest.60.title}"
-			x: 8.0d
-			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -6105,7 +5961,6 @@
 			]
 			icon: "minecraft:obsidian"
 			id: "6CC1049FCC2A076C"
-			invisible: true
 			rewards: [
 				{
 					id: "081CA0517C41CD01"
@@ -6949,8 +6804,8 @@
 				item: "sereneseasons:calendar"
 				type: "item"
 			}]
-			x: 2.8d
-			y: -0.7d
+			x: 3.5d
+			y: -2.8d
 		}
 		{
 			dependencies: ["740DD4098893630E"]
@@ -7954,94 +7809,6 @@
 			y: 0.329251700680274d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
-			description: [
-				"&dLetter From Mom!&r Oh wow! "
-				"EXPERT MODE!? "
-				"ALREADY?! We are SO proud of you! "
-				"Please be careful!! It is very dangerous out there!! "
-				"The Nether is a seriously scary place! But I trust that you can handle it!!"
-				""
-				"Make sure you wear &oweather appropriate clothing&r and upgrade your glider with a &eNether Upgrade&r"
-				""
-				"Also, I have wonderful news! Your uncle has appeared! He survived the dragon attack after all!!"
-				"He claims he was lucky he brought his &dCat Burger&r curio, otherwise he would've been <shake>TOAST!"
-				""
-				"He brought home some treasure from his travels, please pick your favourite item and use it wisely! "
-				"&dXOXO&r - Your very proud mother!!"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "kubejs:scorched_letter"
-			id: "3731FFBC670F0E3B"
-			incompatible: ["3332943281ADBEF1"]
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					icon: "create:orange_toolbox"
-					id: "08E8787B7C82A4B8"
-					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
-					type: "random"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
-					console: true
-					icon: "etched:radio"
-					id: "47DD182236A8ED78"
-					title: "&n&eYou've got mail!"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
-					elevate_perms: true
-					icon: "kubejs:mossy_letter"
-					id: "033F0F69CCDC4F72"
-					title: "&dYou've got mail!"
-					type: "command"
-				}
-				{
-					amount: 500L
-					currency: "eternalcurrencies:coins"
-					id: "77037CA60B6FF2E5"
-					ignore_reward_blocking: true
-					title: "&3Pocket Change"
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "15309DB51D4A7937"
-					item: "majruszsdifficulty:recall_potion"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					icon: "lavafishing:prometheus_bounty"
-					id: "46A757E425DD62C2"
-					table_id: 1718805351174656688L
-					title: "&6Uncle's Treasure"
-					type: "choice"
-				}
-			]
-			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				disable_toast: true
-				icon: "cataclysm:netherite_effigy"
-				id: "284A3E87AC2C9ECD"
-				title: "&cExpert Mode"
-				type: "dimension"
-			}]
-			title: "&6Letter From Mom!"
-			x: 7.0d
-			y: 4.0d
-		}
-		{
 			description: [
 				"You sure do love lootin' chests huh!"
 				""
@@ -8111,216 +7878,99 @@
 			y: 1.4304421768707485d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
+			dependencies: ["0CEBAAFB1B7EDA92"]
 			description: [
-				"&dLetter From Mom!&r I can't believe its been 10 WHOLE DAYS since you started your new adventure! That is so wonderful! "
+				"The &dPortable Pet Sphere&r is a very useful utility item for storing pets!"
+				"You can contain any tamed pet inside the sphere and release them whenever you wish!"
 				""
-				"I went to the market and picked you up a cute necklace I thought it would suit you!! Hopefully you like it!!"
 				""
-				"&dHugs and kisses - Mom "
+				""
+				""
+				"Wait a second.. this isn't Cobblemon Eternal!"
+				"I'm gonna catch some of them! (Don't sue me Nintendo) "
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "kubejs:mossy_letter"
-			id: "36558CB7A7A5D2DB"
-			incompatible: ["3332943281ADBEF1"]
-			invisible: true
-			optional: true
+			id: "5D3ED598E0188760"
 			rewards: [
 				{
-					icon: "create:orange_toolbox"
-					id: "1672991E815731B8"
-					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
-					type: "random"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
-					console: true
-					icon: "etched:radio"
-					id: "064D7537CFC8F666"
-					title: "&n&eYou've got mail!"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
-					elevate_perms: true
-					icon: "kubejs:mossy_letter"
-					id: "4448B64A29787274"
-					title: "&dYou've got mail!"
-					type: "command"
-				}
-				{
-					amount: 15L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
-					id: "50BC0887AEB9A600"
+					id: "6423B2EC392DC0BC"
 					ignore_reward_blocking: true
-					title: "&3Pocket Change"
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4F5EE0EB2149A569"
-					item: "artifacts:panic_necklace"
+					id: "2826B98552F8CFE7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
 					type: "item"
 				}
 			]
-			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			size: 0.7d
+			subtitle: "Craft a &ePortable Pet Sphere"
 			tasks: [{
-				days: 10
-				icon: "minecraft:red_bed"
-				id: "50DF080BE9915238"
-				type: "questsadditions:days"
+				id: "20DA7416F0404272"
+				item: "petcapturetool:capture_tool"
+				type: "item"
 			}]
-			title: "&6Letter From Mom!"
-			x: 10.0d
-			y: 4.0d
+			title: "Legally Distinct Pocket Pal™"
+			x: 2.78626700680271d
+			y: -0.09931972789115662d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
+			can_repeat: true
+			dependencies: ["39C7248750512A5B"]
 			description: [
-				"&dLetter From Mom!&r I can't believe its been 25 LONG DAYS since you started your new adventure! You are doing amazing! We are all very proud of you, as always!"
-				""
-				"I went to the market and picked you up a cozy pair of slippers, I thought you might like them! "
-				""
-				"&dHugs and kisses - Mom "
+				"This strange device can turn money into chocolate money. Wow."
+				"{image:integrateddynamics:aspect/read/boolean/machine/isworking width:100 height:100 align:center}"
+				"            &o&7<shake>Beep Boop CHOCOLATE"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "kubejs:mossy_letter"
-			id: "621F369C844200D6"
-			incompatible: ["3332943281ADBEF1"]
-			invisible: true
+			icon: "quark:deepslate_furnace"
+			id: "4C7BC395C5E035D1"
 			optional: true
-			rewards: [
-				{
-					icon: "create:orange_toolbox"
-					id: "7A306BFC51FBA4C0"
-					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
-					type: "random"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
-					console: true
-					icon: "etched:radio"
-					id: "146C7809CEA7BC2F"
-					title: "&n&eYou've got mail!"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
-					elevate_perms: true
-					icon: "kubejs:mossy_letter"
-					id: "38FC837947EEE185"
-					title: "&dYou've got mail!"
-					type: "command"
-				}
-				{
-					amount: 15L
-					currency: "eternalcurrencies:coins"
-					id: "3F1F737B8D28F24A"
-					ignore_reward_blocking: true
-					title: "&3Pocket Change"
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "4725AF9A0E8EC9FB"
-					item: "artifacts:kitty_slippers"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
-			tasks: [{
-				days: 25
-				icon: "minecraft:red_bed"
-				id: "0CD27A657B7A1CB3"
-				type: "questsadditions:days"
+			rewards: [{
+				id: "7EED2E2BABF3AAC5"
+				item: "kubejs:chocolate_coin"
+				type: "item"
 			}]
-			title: "&6Letter From Mom!"
-			x: 11.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["740DD4098893630E"]
-			description: [
-				"&dLetter From Mom!&r I can't believe its been 50 LONG DAYS since you started your new adventure! You are doing amazing! We are all very proud of you, as always!"
-				""
-				"I went to the market and picked you up some sort of special totem, the shopkeeper told me it was capable of protecting its wearer from harm. "
-				"I have been a little worried about you I must confess! Hopefully you never have to use it!"
-				"But like I always say, better safe than sorry!!!"
-				""
-				"&dHugs and kisses - Mom "
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "kubejs:mossy_letter"
-			id: "281E319CBD1DECBE"
-			incompatible: ["3332943281ADBEF1"]
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					icon: "create:orange_toolbox"
-					id: "320310BDB26C5B7A"
-					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
-					type: "random"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
-					console: true
-					icon: "etched:radio"
-					id: "35AE0A14808F4193"
-					title: "&n&eYou've got mail!"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
-					elevate_perms: true
-					icon: "kubejs:mossy_letter"
-					id: "546E8AF2AC43C2BF"
-					title: "&dYou've got mail!"
-					type: "command"
-				}
-				{
-					amount: 15L
-					currency: "eternalcurrencies:coins"
-					id: "7B039CEB3414546F"
-					ignore_reward_blocking: true
-					title: "&3Pocket Change"
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "0A29897B65AFA4CB"
-					item: "artifacts:chorus_totem"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			shape: "embellish"
+			subtitle: "Feed me money..."
 			tasks: [{
-				days: 50
-				icon: "minecraft:red_bed"
-				id: "583B7250A85BADE2"
-				type: "questsadditions:days"
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4ABFA578BC714193"
+				type: "eternalcurrencies:currency"
 			}]
-			title: "&6Letter From Mom!"
-			x: 12.0d
-			y: 4.0d
+			title: "&eChocolate Coin Maker 5000"
+			x: 2.3911564625850374d
+			y: -1.307142857142857d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
