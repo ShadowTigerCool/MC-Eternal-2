@@ -1533,12 +1533,11 @@
     {
       "projectID": 931925,
       "fileID": 6615986,
+      "required": true
     },
     {
       "projectID": 225643,
       "fileID": 6843600,
-    },
-    {
       "required": true
     },
     {
