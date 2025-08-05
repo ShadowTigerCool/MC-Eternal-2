@@ -18,7 +18,7 @@
 	    {
       "type": "goblintraders:basic",
       "experience": 10,
-      "max_trades": 3,
+      "max_trades": 10,
       "offer_item": {
         "count": 1,
         "item": "irons_spellbooks:blank_rune"
