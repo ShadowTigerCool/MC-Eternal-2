@@ -554,12 +554,19 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				advancement: "ratlantis:defeat_rat_baron"
-				criterion: ""
-				id: "54AE818501F32190"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "ratlantis:defeat_rat_baron"
+					criterion: ""
+					id: "54AE818501F32190"
+					type: "advancement"
+				}
+				{
+					id: "1CE4045A7B1B7C6C"
+					item: "rats:biplane_wing"
+					type: "item"
+				}
+			]
 			title: "Rat Baron"
 			x: 6.0d
 			y: 3.0d
@@ -634,8 +641,8 @@
 				item: "rats:oratchalcum_block"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56DD03587D64EAE7"]
@@ -1435,6 +1442,32 @@
 			}]
 			x: -1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"00507FD30946FAA7"
+				"5B342EADE390718D"
+				"66829D8DB3812DF1"
+			]
+			description: [
+				"Ratlanteans most prized Reactors."
+				"Be careful how you use them."
+			]
+			id: "7E7013783BCA97B0"
+			tasks: [
+				{
+					id: "65BC3F39704D60CF"
+					item: "rats:ratlantis_reactor"
+					type: "item"
+				}
+				{
+					id: "526627142EAE02DE"
+					item: "kubejs:reactor_tnt"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
 		}
 	]
 	title: "{chapter.21.title}"

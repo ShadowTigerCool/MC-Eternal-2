@@ -796,6 +796,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "22D16D4DA22F766C"
+			optional: true
 			rewards: [{
 				amount: 20L
 				currency: "eternalcurrencies:coins"
@@ -809,7 +810,7 @@
 				item: "rats:rat_upgrade_carrat"
 				type: "item"
 			}]
-			title: "Fight Carrat"
+			title: "Eat Carrat"
 			x: 8.25d
 			y: 10.0d
 		}
@@ -1378,7 +1379,7 @@
 			id: "40957BC86EB1FE9A"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "735E4F6D5F8C3801"
 				ignore_reward_blocking: true
@@ -1529,7 +1530,7 @@
 			id: "5B60D17E7595FAD3"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0E2619F8AD2E90C0"
 				ignore_reward_blocking: true
@@ -1554,7 +1555,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 50L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "7F885BE4805F4577"
 					ignore_reward_blocking: true
@@ -1755,7 +1756,7 @@
 			id: "0F17D9539C1D0D19"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "3A71A1B9414FD0C5"
 				ignore_reward_blocking: true
@@ -2020,7 +2021,7 @@
 			id: "1CBB36A1983F38F3"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "71D5CE05D3C59BBF"
 				ignore_reward_blocking: true
@@ -2042,7 +2043,7 @@
 			id: "779B7814DBF8ADDB"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "032112B340EFF3A1"
 				ignore_reward_blocking: true
@@ -2175,7 +2176,8 @@
 			y: 10.0d
 		}
 		{
-			description: ["Make all the cheese and be forever stuck with the cheese touch"]
+			description: ["Create the ultimate cheese and be forever stuck with the cheese touch"]
+			icon: "kubejs:ultimate_cheese"
 			id: "286FA5340108878F"
 			invisible: true
 			optional: true
@@ -2230,18 +2232,23 @@
 			subtitle: "ew! Get away from me"
 			tasks: [
 				{
-					id: "2A045BA0A9FBE441"
-					item: "rats:cheese"
+					id: "1D9061FECD096032"
+					item: "rats:block_of_cheese"
 					type: "item"
 				}
 				{
-					id: "630BA40C3321BEFD"
-					item: "rats:blue_cheese"
+					id: "1533D8D66EA8DD28"
+					item: "rats:block_of_blue_cheese"
 					type: "item"
 				}
 				{
-					id: "6AC481E834273515"
-					item: "rats:nether_cheese"
+					id: "055F07EBB5F25E3B"
+					item: "rats:block_of_nether_cheese"
+					type: "item"
+				}
+				{
+					id: "0EF92BC2374FC808"
+					item: "kubejs:ultimate_cheese"
 					type: "item"
 				}
 			]
@@ -2686,7 +2693,7 @@
 			id: "0311675DA849F75D"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "36A97545A3BDA24F"
 				ignore_reward_blocking: true
