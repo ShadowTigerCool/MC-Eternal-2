@@ -543,7 +543,19 @@
   "result":"deny",
   "when": "onjoin"
 },
-  
+    {
+    "mod":"thermal",
+    "gamestage":"expert",
+    "result":"default",
+     "healthmultiply": 3.5,
+    "damagemultiply": 6.5,
+    "when": "onjoin"
+  },
+  {
+    "mod":"thermal",
+    "result":"deny",
+    "when": "onjoin"
+  },
 
 {
   "mob":"rootoffear:wilted",
