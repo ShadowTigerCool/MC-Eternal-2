@@ -543,6 +543,16 @@
   "result":"deny",
   "when": "onjoin"
 },
+     {
+       "mob": "thermal:basalz",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Earthen Elemental",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 5.0,
+    "damagemultiply": 7.5,
+    "speedmultiply": 1.5
+  },
     {
     "mod":"thermal",
     "gamestage":"expert",
