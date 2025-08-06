@@ -543,6 +543,17 @@
   "result":"deny",
   "when": "onjoin"
 },
+      {
+     "dimension": "mce:dwarven_depths",
+    "customname": "§4Durin's Bane",
+    "mob": "alexscaves:forsaken",
+    "maxcount": {
+      "amount": 1,
+      "perplayer": false,
+      "when": "onjoin"
+    },
+    "result": "deny"
+  }, 
      {
        "mob": "thermal:basalz",
     "dimension": "mce:dwarven_depths",
