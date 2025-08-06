@@ -25,7 +25,7 @@
   },
 
 {
-    "mob": ["alexsmobs:rocky_roller", "thermal:basalz", "alexsmobs:underminer", "alexscaves:ferrouslime", "quark:forgotten", "quark:toretoise"], 
+    "mob": ["alexsmobs:rocky_roller", "thermal:basalz", "alexsmobs:underminer", "alexscaves:ferrouslime", "quark:forgotten", "quark:toretoise", "creeperoverhaul:dripstone_creeper"], 
     "persecond": 0.1,
     "attempts": 1,
     "amount": {
