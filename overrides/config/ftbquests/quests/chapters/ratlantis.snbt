@@ -918,7 +918,6 @@
 				"Extra tang to its bite."
 				"Watch Out!"
 			]
-			hide_until_deps_complete: true
 			id: "080DC17D6093A0B5"
 			optional: true
 			rewards: [{
@@ -940,7 +939,6 @@
 		{
 			dependencies: ["243CDB964EC69A5E"]
 			description: ["Captain your own Fleet of Pirat's"]
-			hide_until_deps_complete: true
 			id: "1873E9F243F6E653"
 			optional: true
 			rewards: [{
@@ -962,7 +960,6 @@
 		{
 			dependencies: ["243CDB964EC69A5E"]
 			description: ["Rat Automaton Systems Model 101"]
-			hide_until_deps_complete: true
 			id: "2E1027BFA90D5408"
 			optional: true
 			rewards: [{
@@ -988,7 +985,6 @@
 				"We have a Neo Rat at home."
 				"Big Brained."
 			]
-			hide_until_deps_complete: true
 			id: "3B22CADD3DB98AB4"
 			optional: true
 			rewards: [{
@@ -1011,7 +1007,6 @@
 		{
 			dependencies: ["243CDB964EC69A5E"]
 			description: ["Lil Ghosty Rat Friend."]
-			hide_until_deps_complete: true
 			id: "38679A0084BD89BC"
 			optional: true
 			rewards: [{
@@ -1318,7 +1313,6 @@
 		{
 			dependencies: ["77AE1FA48A87B138"]
 			description: ["Add One by one with combined upgrade to create the ultimate tank"]
-			hide_until_deps_complete: true
 			id: "2E13A78D5507C410"
 			optional: true
 			rewards: [{
@@ -1363,7 +1357,6 @@
 		{
 			dependencies: ["77AE1FA48A87B138"]
 			description: ["Add One by one with combined upgrade to create your own air support"]
-			hide_until_deps_complete: true
 			id: "38C34232E3CEB525"
 			optional: true
 			rewards: [{
