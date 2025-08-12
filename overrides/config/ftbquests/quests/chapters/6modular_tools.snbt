@@ -1188,7 +1188,7 @@
 		{
 			dependencies: ["0D88B45349B3E660"]
 			description: [
-				"Using the &eSmeltery&r create a &eFoundry Controller&r by pouring molten obsidian over &eScorched Bricks"
+				"Using the &eSmeltery&r create a &eFoundry Controller&r by pouring molten cobalt over &eScorched Bricks"
 				""
 				"&e&lHint:&r This will be needed for the next quest!"
 			]
@@ -2700,3 +2700,4 @@
 	]
 	title: "&6Tinker's Construct &o(Modular Tools)"
 }
+
