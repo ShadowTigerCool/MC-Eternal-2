@@ -1,5 +1,5 @@
 ItemEvents.tooltip(event => {
-	event.add('kubejs:chocolate_coin', Text.of('§7§oNow you can EAT your money while waiting for the shop! Incredible!').color('#FFFFFF')); 
+	
 	event.add('%gateways', Text.of('\u00A7oOpens a rift in space-time, beware!').color('#FFFFFF')); 
 	event.add('%pitchperfect', Text.of('Changes note depending on where you look!').color('#FFFFFF')); 
 	event.add('kubejs:artifact_ghoul_heart', Text.of('§7§oStill beating in your hands..').color('#FFFFFF')); 
@@ -195,6 +195,10 @@ ItemEvents.tooltip(event => {
 	event.add('endrem:nether_eye', Text.of('\n'));
 	event.add('endrem:nether_eye', Text.of('\u00A7l<rainb>LEGENDARY EYE<rainb> §r§816/16').color('#FFAA00'));
 
+    event.add('kubejs:reactor_tnt', Text.of('§4Emits strange energy...').color('#00FFAA'))
+	event.add('kubejs:reactor_tnt', Text.of('§4Do Not Break').color('#00FFAA'))
+    event.add('rats:ratlantis_reactor', Text.of('§eDecorative!'))
+	event.add('kubejs:ultimate_cheese', Text.of('§eHealing Cheesey Goodness!'))
 	event.add('rats:plastic_waste', Text.of('\u00A7oEver wonder where all of that plastic goes when the tech players are finished playing?').color('#FFFFFF'));
 	event.add('rats:plastic_waste', Text.of('\u00A7oYep the ocean...').color('#FFFFFF'));
 	event.add(['tconstruct:tinkers_anvil', 'tconstruct:scorched_anvil'], Text.of('\u00A7oCan be crafted with multiple types of alloyed metals').color('#4F0D75'));
