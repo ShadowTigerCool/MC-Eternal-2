@@ -41,8 +41,14 @@
 
 },
 {
+"type": "execute",
+"command": "execute at @p summon blighted_beasts:behemoth on target",
+"hide": true
+
+},
+{
     "type": "execute",
-    "command": "effect give @p minecraft:darkness 8",
+    "command": "effect give @p minecraft:darkness 30",
     "hide": true
     
     }
