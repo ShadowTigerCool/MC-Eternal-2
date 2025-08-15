@@ -84,7 +84,7 @@
 	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
 	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
 	[client.priorities]
-		priorities = [8, 3, 6, 4, 2, 5, 7, 9, 1, 0, 10, 11, 12, 13, 14, 15]
+		priorities = [10, 3, 6, 4, 2, 5, 7, 9, 1, 0, 8, 11, 12, 13, 14, 15]
 
 	# Entry types:
 	#    Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
@@ -109,7 +109,7 @@
 		level7_entries = ["endrem:lost_eye", "endrem:magical_eye", "$forge:ingots", "vc_gliders:paraglider_iron", "kubejs:ingot_thousand_metals"]
 		level8_entries = ["endrem:wither_eye", "iceandfire:dragonsteel_lightning_ingot", "iceandfire:lightning_dragon_heart", "iceandfire:dragonsteel_lightning_sword", "kubejs:mobdrop_endermanheart_beating"]
 		level9_entries = ["endrem:old_eye", "rats:halo_hat", "endrem:guardian_eye"]
-		level10_entries = ["kubejs:artifact_beating_heart", "constructs_casting:eldritch_staff", "blighted_beasts:sculk_pearl"]
+		level10_entries = ["kubejs:artifact_beating_heart", "constructs_casting:eldritch_staff", "blighted_beasts:sculk_pearl", "thegreatbelow:soul_reaver_axe", "thegreatbelow:sculk_pizza", "thegreatbelow:sculk_soup"]
 		level11_entries = []
 		level12_entries = []
 		level13_entries = []

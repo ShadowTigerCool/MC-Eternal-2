@@ -7,6 +7,7 @@ ItemEvents.tooltip(event => {
 	event.add('cgs:revolver', Text.of('§7Press Z to tinker.').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
 	event.add('mekanism:osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('kubejs:chocolate_coin', Text.of('§e§oYou asked for a use for coins! Now you can eat your riches and sorrows away!').color('#FFFFFF')); 
 	event.add('mekanism:deepslate_osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('mekanism:uranium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('mekanism:deepslate_uranium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
