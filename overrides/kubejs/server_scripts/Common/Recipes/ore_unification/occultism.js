@@ -54,6 +54,6 @@ modules.occultism.subscribe("dust_gem", (event, material, product) => crushMater
 modules.occultism.subscribe("dust_ore_gem", (event, material, product) => {
     event.remove({id: `occultism:crushing/${material}_dust`})
     occultismCrushing(event, Item.of(product, 3), {tag: `forge:ores/${material}`}, 100, false)
-        .id(`mce2:occultism/crushing/${oreName}_dust_from_ore`)
+        .id(`mce2:occultism/crushing/${material}_dust_from_ore`)
     //crushMaterialToDust(Item.of(product, 3), {tag: `forge:ores/${material}`}, material, "ore")
 })
